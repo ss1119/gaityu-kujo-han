@@ -11,7 +11,8 @@ export const Descriptions = () => {
         highestPrice={value.highestPrice}
         risk={value.risk}
         discription={value.discription}
-        images={value.images}
+        animalImage={value.animalImage}
+        damageImages={value.damageImages}
       />
     );
   });

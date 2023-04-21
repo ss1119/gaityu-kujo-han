@@ -15,7 +15,8 @@ export const descriptionContents: DescriptionEntity[] = [
         絶対に自分では駆除しようとしたりしないで下さい。
       </p>
     ),
-    images: [
+    animalImage: "/assets/animals/animal7.png",
+    damageImages: [
       "/assets/animals/animal7.png",
       "/assets/animals/animal7.png",
       "/assets/animals/animal7.png",
@@ -35,7 +36,8 @@ export const descriptionContents: DescriptionEntity[] = [
         絶対に自分では駆除しようとしたりしないで下さい。
       </p>
     ),
-    images: [
+    animalImage: "/assets/animals/animal7.png",
+    damageImages: [
       "/assets/animals/animal7.png",
       "/assets/animals/animal7.png",
       "/assets/animals/animal7.png",
@@ -55,7 +57,8 @@ export const descriptionContents: DescriptionEntity[] = [
         絶対に自分では駆除しようとしたりしないで下さい。
       </p>
     ),
-    images: [
+    animalImage: "/assets/animals/animal7.png",
+    damageImages: [
       "/assets/animals/animal7.png",
       "/assets/animals/animal7.png",
       "/assets/animals/animal7.png",
@@ -75,7 +78,8 @@ export const descriptionContents: DescriptionEntity[] = [
         絶対に自分では駆除しようとしたりしないで下さい。
       </p>
     ),
-    images: [
+    animalImage: "/assets/animals/animal7.png",
+    damageImages: [
       "/assets/animals/animal7.png",
       "/assets/animals/animal7.png",
       "/assets/animals/animal7.png",

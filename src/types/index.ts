@@ -4,5 +4,6 @@ export type DescriptionEntity = {
   highestPrice: number;
   risk: number;
   discription: JSX.Element;
-  images: string[];
+  animalImage: string;
+  damageImages: string[];
 };

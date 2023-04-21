@@ -3,7 +3,7 @@ import { RedStar } from "./RedStar";
 import { WhiteStar } from "./WhiteStart";
 
 export const Description = (props: DescriptionEntity) => {
-  const images = props.images.map((image, index) => {
+  const images = props.damageImages.map((image, index) => {
     return (
       <div key={index} className="md:w-44">
         <img src={image} className="border border-black" />
@@ -25,7 +25,7 @@ export const Description = (props: DescriptionEntity) => {
         <div className="flex justify-center items-center">
           <div className="h-40 border border-black bg-white md:w-44">
             <p className="border-b border-black text-center">{props.name}</p>
-            <img src="/assets/animals/animal7.png" />
+            <img src={props.animalImage} />
             <p className="flex border-t border-black text-center justify-center items-center text-sm">
               危険度：
               {risk}
