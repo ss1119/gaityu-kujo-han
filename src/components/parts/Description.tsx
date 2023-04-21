@@ -1,16 +1,8 @@
+import { DescriptionEntity } from "../../types";
 import { RedStar } from "./RedStar";
 import { WhiteStar } from "./WhiteStart";
 
-type Props = {
-  name: string;
-  lowestPrice: number;
-  highestPrice: number;
-  risk: number;
-  discription: JSX.Element;
-  images: string[];
-};
-
-export const Description = (props: Props) => {
+export const Description = (props: DescriptionEntity) => {
   const images = props.images.map((image, index) => {
     return (
       <div key={index} className="md:w-44">
@@ -22,9 +14,9 @@ export const Description = (props: Props) => {
   const risk = [];
   for (let i = 1; i <= 5; i++) {
     if (i <= props.risk) {
-      risk.push(<RedStar />);
+      risk.push(<RedStar key={i} />);
     } else {
-      risk.push(<WhiteStar />);
+      risk.push(<WhiteStar key={i} />);
     }
   }
   return (
