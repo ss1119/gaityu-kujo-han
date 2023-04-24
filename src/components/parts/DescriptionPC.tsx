@@ -22,7 +22,7 @@ export const DescriptionPC = (props: DescriptionEntity) => {
   return (
     <div className="hidden rounded-lg bg-white w-auto p-5 h-auto mb-5 mx-3 md:block">
       <div className="flex flex-col">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center h-52">
           <div className="border border-black bg-white h-40 w-44">
             <p className="border-b border-black text-center font-bold">
               {props.name}
