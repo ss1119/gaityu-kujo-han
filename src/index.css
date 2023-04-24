@@ -6,6 +6,10 @@
   background: linear-gradient(transparent 20%, #dda0dd 40%);
 }
 
+.border-double {
+  border-bottom: double;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
