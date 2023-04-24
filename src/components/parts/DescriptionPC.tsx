@@ -2,7 +2,7 @@ import { DescriptionEntity } from "../../types";
 import { RedStar } from "./RedStar";
 import { WhiteStar } from "./WhiteStart";
 
-export const Description = (props: DescriptionEntity) => {
+export const DescriptionPC = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
     return (
       <div key={index} className="md:w-44">
@@ -20,36 +20,38 @@ export const Description = (props: DescriptionEntity) => {
     }
   }
   return (
-    <div className="rounded-lg bg-white w-auto md:p-5 md:h-100 md:mb-5 md:mx-3">
+    <div className="hidden rounded-lg bg-white w-auto p-5 h-auto mb-5 mx-3 md:block">
       <div className="flex flex-col">
         <div className="flex justify-center items-center">
-          <div className="h-40 border border-black bg-white md:w-44">
-            <p className="border-b border-black text-center">{props.name}</p>
+          <div className="border border-black bg-white h-40 w-44">
+            <p className="border-b border-black text-center font-bold">
+              {props.name}
+            </p>
             <img src={props.animalImage} />
             <p className="flex border-t border-black text-center justify-center items-center text-sm">
               危険度：
               {risk}
             </p>
           </div>
-          <img src="/assets/arrow.png" className="md:h-16 md:px-1" />
-          <div className="border border-black bg-white md:w-96">
+          <img src="/assets/arrow.png" className="h-16 px-1" />
+          <div className="border border-black bg-white w-96">
             <p className="border-b border-black text-center">
               {props.name}の特徴
             </p>
             {props.discription}
           </div>
         </div>
-        <div className="md:pt-1">
+        <div className="pt-1">
           <p className="inline-block border-double font-bold">
             駆除料金：{props.lowestPrice}円〜{props.highestPrice}円
           </p>
         </div>
-        <div className="md:pt-4">
+        <div className="pt-4">
           <p className="inline-block border-double font-bold">
             {props.name}による被害例
           </p>
         </div>
-        <div className="flex justify-between md:mt-4">{images}</div>
+        <div className="flex justify-between mt-4">{images}</div>
       </div>
     </div>
   );
