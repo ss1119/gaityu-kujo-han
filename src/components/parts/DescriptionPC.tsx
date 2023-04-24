@@ -28,14 +28,14 @@ export const DescriptionPC = (props: DescriptionEntity) => {
               {props.name}
             </p>
             <img src={props.animalImage} />
-            <p className="flex border-t border-black text-center justify-center items-center text-sm">
+            <p className="flex border-t border-black text-center justify-center items-center text-sm font-bold">
               危険度：
               {risk}
             </p>
           </div>
           <img src="/assets/arrow.png" className="h-16 px-1" />
           <div className="border border-black bg-white w-96">
-            <p className="border-b border-black text-center">
+            <p className="border-b border-black text-center font-bold">
               {props.name}の特徴
             </p>
             {props.discription}
