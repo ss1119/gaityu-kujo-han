@@ -10,6 +10,32 @@
   border-bottom: double;
 }
 
+.reason-bg {
+  background-size: cover;
+  background-image: url("./assets/reason-bg.png");
+}
+
+@media screen and (max-width: 480px) {
+  .reason-bg {
+    width: 100%;
+    height: 295px;
+  }
+}
+
+.mt-minus {
+  margin-top: -45px;
+}
+
+@media screen and (max-width: 480px) {
+  .mt-minus {
+    margin-top: -27px;
+  }
+}
+
+.mt-minus-7 {
+  margin-top: -7px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

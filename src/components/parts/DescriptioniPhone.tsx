@@ -28,7 +28,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
               {props.name}
             </p>
             <img src={props.animalImage} />
-            <p className="flex border-t border-black text-center justify-center items-center text-sm">
+            <p className="flex border-t border-black text-center justify-center items-center text-sm font-bold">
               危険度：
               {risk}
             </p>
@@ -43,7 +43,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
           </div>
         </div>
         <div className="border border-black bg-white text-sm mt-3 mx-3">
-          <p className="border-b border-black text-center">
+          <p className="border-b border-black text-center font-bold">
             {props.name}の特徴
           </p>
           {props.discription}
