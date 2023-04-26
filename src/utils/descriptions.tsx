@@ -15,11 +15,11 @@ export const descriptionContents: DescriptionEntity[] = [
         絶対に自分では駆除しようとしたりしないで下さい。
       </p>
     ),
-    animalImage: "/assets/animals/animal7.png",
+    animalImage: "/assets/animals/animal1.png",
     damageImages: [
-      "/assets/animals/animal7.png",
-      "/assets/animals/animal7.png",
-      "/assets/animals/animal7.png",
+      "/assets/animals/animal5-1.png",
+      "/assets/animals/animal5-2.png",
+      "/assets/animals/animal5-3.png",
     ],
   },
   {
@@ -36,11 +36,11 @@ export const descriptionContents: DescriptionEntity[] = [
         虫が苦手な方、ご心配な方は駆除の依頼を推奨致します。
       </p>
     ),
-    animalImage: "/assets/animals/animal7.png",
+    animalImage: "/assets/animals/animal2.png",
     damageImages: [
-      "/assets/animals/animal7.png",
-      "/assets/animals/animal7.png",
-      "/assets/animals/animal7.png",
+      "/assets/animals/animal5-1.png",
+      "/assets/animals/animal5-2.png",
+      "/assets/animals/animal5-3.png",
     ],
   },
   {
@@ -57,11 +57,11 @@ export const descriptionContents: DescriptionEntity[] = [
         愛する我が家がゴキブリの温床にされてしまう前に、お早めの駆除依頼をおすすめ致します。
       </p>
     ),
-    animalImage: "/assets/animals/animal7.png",
+    animalImage: "/assets/animals/animal3.png",
     damageImages: [
-      "/assets/animals/animal7.png",
-      "/assets/animals/animal7.png",
-      "/assets/animals/animal7.png",
+      "/assets/animals/animal5-1.png",
+      "/assets/animals/animal5-2.png",
+      "/assets/animals/animal5-3.png",
     ],
   },
   {
@@ -78,11 +78,32 @@ export const descriptionContents: DescriptionEntity[] = [
         ケムシが見つかった場合、駆除すると共に予防剤の散布を推奨致します。
       </p>
     ),
-    animalImage: "/assets/animals/animal7.png",
+    animalImage: "/assets/animals/animal4.png",
     damageImages: [
-      "/assets/animals/animal7.png",
-      "/assets/animals/animal7.png",
-      "/assets/animals/animal7.png",
+      "/assets/animals/animal5-1.png",
+      "/assets/animals/animal5-2.png",
+      "/assets/animals/animal5-3.png",
+    ],
+  },
+  {
+    name: "アライグマ",
+    lowestPrice: 15000,
+    highestPrice: 30000,
+    risk: 5,
+    discription: (
+      <p className="text-sm text-left p-2">
+        アライグマは可愛い見た目とは裏腹に、雑食で非常に繁殖性が強く、性格も獰猛で気性が荒いのが特徴です。
+        <br />
+        実際にアライグマを触ろうとして噛まれた実例も多数存在し、大変危険な害獣と言えるでしょう。
+        <br />
+        屋根裏でアライグマが生活する事による糞害や、ダニの繁殖も問題の1つと言えるでしょう。
+      </p>
+    ),
+    animalImage: "/assets/animals/animal5.png",
+    damageImages: [
+      "/assets/animals/animal5-1.png",
+      "/assets/animals/animal5-2.png",
+      "/assets/animals/animal5-3.png",
     ],
   },
 ];
