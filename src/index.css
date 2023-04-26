@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .maker {
-  background: linear-gradient(transparent 20%, #dda0dd 40%);
+  background: linear-gradient(transparent 20%, #dda0dd 80%);
 }
 
 .border-double {
@@ -20,6 +20,11 @@
     width: 100%;
     height: 295px;
   }
+}
+
+.request-flow-bg {
+  background-size: cover;
+  background-image: url("./assets/request-flow-bg.png");
 }
 
 .mt-minus {
