@@ -38,7 +38,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
               駆除料金
             </p>
             <p className="inline-block border-double font-bold text-sm">
-              {props.lowestPrice}円〜{props.highestPrice}円
+              {props.lowestPrice}〜{props.highestPrice}円
             </p>
           </div>
         </div>

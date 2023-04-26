@@ -51,7 +51,7 @@ export const DescriptionPC = (props: DescriptionEntity) => {
             {props.name}による被害例
           </p>
         </div>
-        <div className="flex justify-between mt-4">{images}</div>
+        <div className="flex justify-between mt-4 px-7">{images}</div>
       </div>
     </div>
   );
