@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .maker {
-  background: linear-gradient(transparent 20%, #dda0dd 40%);
+  background: linear-gradient(transparent 0%, #dda0dd 80%);
 }
 
 .border-double {
@@ -19,6 +19,19 @@
   .reason-bg {
     width: 100%;
     height: 295px;
+  }
+}
+
+.request-flow-bg {
+  background-size: cover;
+  background-image: url("./assets/request-flow-bg.png");
+}
+
+@media screen and (max-width: 480px) {
+  .request-flow-bg {
+    background-image: url("./assets/request-flow-bg-iPhone.png");
+    width: 100%;
+    height: 80%;
   }
 }
 
