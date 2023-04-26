@@ -3,11 +3,11 @@ import { Wave } from "../parts/Wave";
 
 export const RequestFlow = () => {
   return (
-    <div className="flex flex-col items-center request-flow-bg pt-5 pb-5 md:pt-14 md:pb-10 md:h-screen">
-      <div className="flex justify-center items-center p-2 font-bold bg-yellow-300 text-xl md:px-5 md:mb-10 md:text-5xl">
+    <div className="flex flex-col items-center request-flow-bg pt-5 pb-7 md:pt-14 md:pb-14">
+      <div className="flex justify-center items-center p-2 mb-5 font-bold bg-yellow-300 text-xl md:px-5 md:mb-10 md:text-5xl">
         ご依頼〜駆除完了までの流れ
       </div>
-      <div className="flex flex-col w-full md:pl-64 md:pr-36">
+      <div className="flex flex-col w-full px-3 md:pl-64 md:pr-36">
         <Flow title="ご依頼" text="お電話・LINEにてご依頼受付中です。" />
         <Wave />
         <Flow
@@ -17,7 +17,7 @@ export const RequestFlow = () => {
         <Wave />
         <Flow
           title="駆除開始"
-          text="害虫・害獣の駆除はもちろんのこと、徹底的な除菌・清掃作業、　再発防止のための原因探しを御約束致します。"
+          text="害虫・害獣の駆除はもちろんのこと、徹底的な除菌・清掃作業、再発防止のための原因探しを御約束致します。"
         />
         <Wave />
         <Flow
