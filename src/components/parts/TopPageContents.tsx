@@ -1,10 +1,9 @@
 export const TopPageContents = () => {
   return (
     <div className="relative">
-      <div className="">
-        <div className="flex justify-end md:pr-36">
-          <img src="/assets/animals/animals.svg" className="" />
-        </div>
+      <div className="flex justify-center">
+        <img src="/assets/animals/animals.png" className="md:hidden" />
+        <img src="/assets/animals/animals.svg" className="hidden md:block" />
       </div>
       <div className="flex justify-center md:botom-8 md:absolute md:mx-48">
         <div className="container rounded-xl py-3 md:py-8 bg-yellow-300">
