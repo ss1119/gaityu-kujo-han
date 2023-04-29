@@ -25,7 +25,7 @@ export const TopPageContents = () => {
               <br className="md:hidden" />
               『危険な害虫・害獣』の駆除は、実践経験
               <br className="md:hidden" />
-              豊富な『害虫駆除班』のプロスタッフに
+              豊富な『ホームプロテクター』のプロスタッフに
               <br className="md:hidden" />
               お任せ下さい。
             </p>
