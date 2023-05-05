@@ -6,7 +6,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
     return (
       <div key={index} className="mx-1">
-        <img src={image} className="border border-black" />
+        <img src={image} className="border-2 border-black" />
       </div>
     );
   });
@@ -23,7 +23,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
     <div className="visible rounded-lg bg-white w-auto p-4 h-auto mx-2 mb-5 md:hidden">
       <div className="flex flex-col items-center">
         <div className="flex items-center">
-          <div className="border border-black bg-white h-42 w-44 mr-4">
+          <div className="border-2 border-black bg-white h-42 w-44 mr-4">
             <p className="border-b border-black text-center font-bold">
               {props.name}
             </p>
@@ -42,7 +42,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
             </p>
           </div>
         </div>
-        <div className="border border-black bg-white text-sm mt-3 mx-3">
+        <div className="border-2 border-black bg-white text-sm mt-3 mx-3">
           <p className="border-b border-black text-center font-bold">
             {props.name}の特徴
           </p>
