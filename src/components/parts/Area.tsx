@@ -2,11 +2,14 @@ export const Area = () => {
   const title = "【活動地域について】";
   const discription = (
     <div>
-      株式会社 Protect Good Lifeが運営するホームプロテクターは、
-      関西地域を中心に害虫・害獣の駆除を行っている専門業者です。
-      <br />
-      弊社では、集客から駆除までの工程を全て自社で担当している為、他社よりも
-      大変低価格で駆除のご依頼をお受けしております。
+      <p className="leading-relaxed md:leading-loose">
+        株式会社 Protect Good Lifeが運営するホームプロテクターは、
+        関西地域を中心に害虫・害獣の駆除を行っている専門業者です。
+      </p>
+      <p className="leading-relaxed md:leading-loose">
+        弊社では、集客から駆除までの工程を全て自社で担当している為、他社よりも
+        大変低価格で駆除のご依頼をお受けしております。
+      </p>
     </div>
   );
   return (
