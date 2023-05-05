@@ -6,6 +6,12 @@
   background: linear-gradient(transparent 0%, #dda0dd 80%);
 }
 
+.fuchidori {
+  color: #000;
+  -webkit-text-stroke: 1px #fff;
+  text-stroke: 1px #fff;
+}
+
 .border-double {
   border-bottom: double;
 }
