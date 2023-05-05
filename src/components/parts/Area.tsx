@@ -15,7 +15,7 @@ export const Area = () => {
   return (
     <>
       <div className="hidden md:flex items-center mt-5">
-        <div className="rounded-lg bg-white text-justify font-semibold text-2xl mx-10 p-12">
+        <div className="rounded-lg text-justify font-semibold text-2xl mx-10 p-12 area-bg">
           <span className="font-bold block text-4xl">{title}</span>
           <br />
           {discription}
@@ -23,7 +23,7 @@ export const Area = () => {
         <img src="assets/map.png" className="w-1/4 mr-14 block" />
       </div>
       <div className="flex items-center mt-3 md:hidden">
-        <div className="rounded-lg bg-white text-justify font-semibold p-4">
+        <div className="rounded-lg text-justify font-semibold p-4 area-bg">
           <span className="font-bold text-xl">{title}</span>
           <div className="mt-2">
             <img src="assets/map.png" className="w-5/12 float-right ml-2" />
