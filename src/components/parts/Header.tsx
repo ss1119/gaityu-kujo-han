@@ -41,7 +41,9 @@ export const Header = () => {
       >
         <img src="assets/phone.png" className="w-12" />
       </a>
-      <img src="assets/line.png" className="md:hidden w-14" />
+      <a href="https://lin.ee/mqP8zXC">
+        <img src="assets/line.png" className="md:hidden w-14" />
+      </a>
     </div>
   );
 };
