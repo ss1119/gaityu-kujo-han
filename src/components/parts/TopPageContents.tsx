@@ -22,13 +22,8 @@ export const TopPageContents = () => {
             </div>
           </div>
           <div className="px-10 mt-4 md:mt-6 md:px-20">
-            <p className="text-left font-semibold md:text-xl">
-              有害ウイルスや有害な細菌を持つ
-              <br className="md:hidden" />
-              『危険な害虫・害獣』の駆除は、実践経験
-              <br className="md:hidden" />
-              豊富な『ホームプロテクター』のプロスタッフに
-              <br className="md:hidden" />
+            <p className="text-justify font-semibold leading-relaxed md:text-xl md:leading-loose">
+              有害ウイルスや有害な細菌を持つ『危険な害虫・害獣』の駆除は、実践経験豊富な『ホームプロテクター』のプロスタッフに
               お任せ下さい。
             </p>
           </div>
