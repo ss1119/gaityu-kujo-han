@@ -46,6 +46,20 @@
   }
 }
 
+.staff-bg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("./assets/man-bg.png");
+}
+
+@media screen and (max-width: 480px) {
+  .staff-bg {
+    background-size: cover;
+    background-image: url("./assets/man-bg-iPhone.png");
+  }
+}
+
 .mt-minus {
   margin-top: -45px;
 }
