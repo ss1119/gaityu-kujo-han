@@ -2,8 +2,11 @@ export const TopPageContents = () => {
   return (
     <div className="relative">
       <div className="flex justify-center">
-        <img src="/assets/animals/animals.png" className="md:hidden" />
-        <img src="/assets/animals/animals.svg" className="hidden md:block" />
+        <img src="/assets/animals/animals-small.png" className="md:hidden" />
+        <img
+          src="/assets/animals/animals-big.png"
+          className="hidden md:block w-11/12"
+        />
       </div>
       <div className="flex justify-center md:botom-8 md:absolute md:mx-48">
         <div className="container rounded-xl py-3 md:py-8 bg-yellow-300">
