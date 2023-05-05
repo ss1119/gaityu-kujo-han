@@ -60,6 +60,17 @@
   }
 }
 
+.area-bg {
+  background-size: cover;
+  background-image: url("./assets/area-bg.png");
+}
+
+@media screen and (max-width: 480px) {
+  .area-bg {
+    background-image: url("./assets/area-bg-iPhone.png");
+  }
+}
+
 .mt-minus {
   margin-top: -45px;
 }
