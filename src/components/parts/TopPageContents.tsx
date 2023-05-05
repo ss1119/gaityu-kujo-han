@@ -8,7 +8,7 @@ export const TopPageContents = () => {
           className="hidden md:block w-11/12"
         />
       </div>
-      <div className="flex justify-center mt-3">
+      <div className="flex justify-center">
         <img src="assets/stars/stars.png" />
       </div>
       <div className="flex justify-center">
