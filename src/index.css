@@ -35,6 +35,17 @@
   }
 }
 
+.promise-bg {
+  background-size: cover;
+  background-image: url("./assets/promise-bg.png");
+}
+
+@media screen and (max-width: 480px) {
+  .promise-bg {
+    background-image: url("./assets/promise-bg-iPhone.png");
+  }
+}
+
 .mt-minus {
   margin-top: -45px;
 }
