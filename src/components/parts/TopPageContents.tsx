@@ -9,7 +9,7 @@ export const TopPageContents = () => {
         />
       </div>
       <div className="flex justify-center">
-        <img src="assets/stars/stars.png" />
+        <img src="assets/stars.png" />
       </div>
       <div className="flex justify-center">
         <div className="w-full py-3 md:py-8 bg-yellow-300">
