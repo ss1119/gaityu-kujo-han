@@ -29,7 +29,7 @@ export const Header = () => {
             にお任せ下さい！
           </p>
         </div>
-        <div className="hidden md:flex items-center shadow bg-yellow-300 rounded-md pr-3 pl-2 py-1 mr-10">
+        <div className="hidden md:flex items-center shadow bg-yellow-300 rounded-md pr-3 pl-2 py-1">
           <img src="assets/phone.png" className="w-16" />
           <div className="flex flex-col">
             <p className="font-bold">お電話はこちら</p>
