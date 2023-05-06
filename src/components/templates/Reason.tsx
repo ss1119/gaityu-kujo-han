@@ -1,3 +1,5 @@
+import { Crown } from "../parts/Crown";
+
 export const Reason = () => {
   return (
     <div className="flex flex-col items-center reason-bg">
@@ -9,32 +11,14 @@ export const Reason = () => {
       </div>
       <div className="flex flex-col justify-center md:mb-10">
         <div className="flex justify-center">
-          <img
-            src="/assets/stars/star1.svg"
-            className="w-32 md:w-80 mt-minus-7 md:mt-0"
-          />
-          <img
-            src="/assets/stars/star2.svg"
-            className="w-32 md:w-80 mt-minus-7 md:mt-0"
-          />
-          <img
-            src="/assets/stars/star3.svg"
-            className="w-32 md:w-80 mt-minus-7 md:mt-0"
-          />
+          <Crown fileName="crown1.png" />
+          <Crown fileName="crown2.png" />
+          <Crown fileName="crown3.png" />
         </div>
         <div className="flex justify-center">
-          <img
-            src="/assets/stars/star4.svg"
-            className="w-32 md:w-80 mt-minus"
-          />
-          <img
-            src="/assets/stars/star5.svg"
-            className="w-32 md:w-80 mt-minus"
-          />
-          <img
-            src="/assets/stars/star6.svg"
-            className="w-32 md:w-80 mt-minus"
-          />
+          <Crown fileName="crown4.png" />
+          <Crown fileName="crown5.png" />
+          <Crown fileName="crown6.png" />
         </div>
       </div>
     </div>
