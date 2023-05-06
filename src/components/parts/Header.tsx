@@ -53,9 +53,7 @@ export const Header = () => {
         </p>
         <p className="whitespace-nowrap font-bold text-white text-2xs ml-3 md:ml-8 md:text-xl">
           今なら
-          <span className="text-yellow-400 text-xs mx-1 md:text-2xl">
-            50%OFF
-          </span>
+          <span className="text-yellow-400 mx-1">50%OFF</span>
           キャンペーン中！
         </p>
       </div>
