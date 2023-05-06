@@ -1,3 +1,4 @@
+import { Footer } from "../parts/Footer";
 import { Header } from "../parts/Header";
 import { TopPageContents } from "../parts/TopPageContents";
 import { Damage } from "../templates/Damage";
@@ -8,7 +9,7 @@ import { RequestFlow } from "../templates/RequestFlow";
 
 export const Home = () => {
   return (
-    <div>
+    <>
       <Header />
       <TopPageContents />
       <Explain />
@@ -16,6 +17,7 @@ export const Home = () => {
       <Reason />
       <Damage />
       <RequestFlow />
-    </div>
+      <Footer />
+    </>
   );
 };
