@@ -61,7 +61,10 @@ export const Damage = () => {
               src="assets/man.png"
               className="w-48 md:w-64 lg:ml-24 lg:w-96"
             />
-            <img src="assets/cloud.svg" className="w-44 md:w-64 lg:w-96" />
+            <img
+              src="assets/cloud.svg"
+              className="w-40 sm:w-44 md:w-64 lg:w-96"
+            />
           </div>
         </div>
         <div className="hidden md:flex md:flex-col">
