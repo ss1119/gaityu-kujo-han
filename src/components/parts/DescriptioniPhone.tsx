@@ -6,7 +6,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
     return (
       <div key={index} className="mx-1">
-        <img src={image} className="border-2 border-black" />
+        <img src={image} />
       </div>
     );
   });

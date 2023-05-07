@@ -17,9 +17,9 @@ export const descriptionContents: DescriptionEntity[] = [
     ),
     animalImage: "/assets/animals/animal1.png",
     damageImages: [
-      "/assets/animals/animal5-1.png",
-      "/assets/animals/animal5-2.png",
-      "/assets/animals/animal5-3.png",
+      "/assets/animals/animal1-1.png",
+      "/assets/animals/animal1-2.png",
+      "/assets/animals/animal1-3.png",
     ],
   },
   {
@@ -38,9 +38,9 @@ export const descriptionContents: DescriptionEntity[] = [
     ),
     animalImage: "/assets/animals/animal2.png",
     damageImages: [
-      "/assets/animals/animal5-1.png",
-      "/assets/animals/animal5-2.png",
-      "/assets/animals/animal5-3.png",
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+      "/assets/no-image.png",
     ],
   },
   {
@@ -59,9 +59,9 @@ export const descriptionContents: DescriptionEntity[] = [
     ),
     animalImage: "/assets/animals/animal3.png",
     damageImages: [
-      "/assets/animals/animal5-1.png",
-      "/assets/animals/animal5-2.png",
-      "/assets/animals/animal5-3.png",
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+      "/assets/no-image.png",
     ],
   },
   {
@@ -80,9 +80,9 @@ export const descriptionContents: DescriptionEntity[] = [
     ),
     animalImage: "/assets/animals/animal4.png",
     damageImages: [
-      "/assets/animals/animal5-1.png",
-      "/assets/animals/animal5-2.png",
-      "/assets/animals/animal5-3.png",
+      "/assets/animals/animal4-1.png",
+      "/assets/no-image.png",
+      "/assets/no-image.png",
     ],
   },
   {
@@ -104,6 +104,107 @@ export const descriptionContents: DescriptionEntity[] = [
       "/assets/animals/animal5-1.png",
       "/assets/animals/animal5-2.png",
       "/assets/animals/animal5-3.png",
+    ],
+  },
+  {
+    name: "イタチ",
+    lowestPrice: 12000,
+    highestPrice: 24000,
+    risk: 4,
+    discription: (
+      <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
+        イタチは胴体が非常に細い事から、小さな穴からでも住宅内に侵入出来る為、屋根裏や床下に住み着き、糞害や悪臭、ダニ被害を及ぼします。
+        <br />
+        イタチが屋根裏で走り回る音により、睡眠不足やストレスの原因にも。
+      </p>
+    ),
+    animalImage: "/assets/animals/animal6.png",
+    damageImages: [
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+    ],
+  },
+  {
+    name: "タヌキ",
+    lowestPrice: 15000,
+    highestPrice: 20000,
+    risk: 4,
+    discription: (
+      <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
+        タヌキは犬と同じ感染症を持ち、家庭に出没すると大変危険な存在です。
+        <br />
+        住宅内に侵入すると、生活環境が整った事から、繁殖活動を行ってしまうケースも少なくなく、いつの間にかタヌキファミリーと同じ屋根の下で生活していた。。。なんて事も。
+      </p>
+    ),
+    animalImage: "/assets/animals/animal7.png",
+    damageImages: [
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+    ],
+  },
+  {
+    name: "ハクビシン",
+    lowestPrice: 20000,
+    highestPrice: 40000,
+    risk: 5,
+    discription: (
+      <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
+        ハクビシンはジャコウネコ科の動物で、鼻から額にかけて白いスジがあります。
+        <br />
+        夜行性で大変運動神経がよく、柱や外壁だけでは無く、電線の上も器用に移動する事が出来る為、え？こんな場所から侵入？何てケースも珍しくありません。
+        <br />
+        感染症や寄生虫を持っている可能性がある為、危険です。
+      </p>
+    ),
+    animalImage: "/assets/animals/animal8.png",
+    damageImages: [
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+    ],
+  },
+  {
+    name: "ネズミ",
+    lowestPrice: 10000,
+    highestPrice: 15000,
+    risk: 3,
+    discription: (
+      <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
+        ネズミは衛生的被害を及ぼす、代表的な害獣と言えるでしょう。
+        <br />
+        複数の雑菌を持ち、感染症や皮膚炎などを引き起こす原因となります。
+        <br />
+        特に人間の目に見える範囲にネズミが出てきている場合は、大変注意が必要です。最悪のケースになる前に、ご早めのご依頼を推奨致します。
+      </p>
+    ),
+    animalImage: "/assets/animals/animal9.png",
+    damageImages: [
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+    ],
+  },
+  {
+    name: "害鳥",
+    lowestPrice: 8000,
+    highestPrice: 16000,
+    risk: 3,
+    discription: (
+      <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
+        ハトなどの害鳥の体には、ダニや寄生虫などが無数に付着しています。
+        <br />
+        害鳥が飛び立つ時には、ダニや寄生虫の死骸が周辺に飛び散る為、健康への被害が危惧されています。
+        <br />
+        たまたまご家庭に侵入してしまった場合、巣を作られてしまった場合などは、お早めにご依頼下さい。
+      </p>
+    ),
+    animalImage: "/assets/animals/animal10.png",
+    damageImages: [
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+      "/assets/no-image.png",
     ],
   },
 ];
