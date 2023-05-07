@@ -12,7 +12,7 @@ export const TopPageContents = () => {
         <img src="assets/stars.png" />
       </div>
       <div className="flex justify-center">
-        <div className="w-full py-3 lg:py-8 bg-yellow-300">
+        <div className="w-full py-3 md:py-5 lg:py-8 bg-yellow-300">
           <div className="flex flex-col lg:flex-row justify-center">
             <div className="text-center font-bold lg:text-4xl text-2xl">
               <span className="fuchidori mr-3">今だけ駆除費</span>
@@ -26,7 +26,7 @@ export const TopPageContents = () => {
             </div>
           </div>
           <div className="flex justify-center px-4 mt-4">
-            <p className="text-justify font-semibold leading-relaxed lg:text-xl lg:leading-loose">
+            <p className="text-justify font-semibold leading-relaxed md:text-xl lg:leading-loose">
               有害ウイルスや有害な細菌を持つ『危険な害虫・害獣』の駆除は、実践経験豊富な『ホームプロテクター』のプロスタッフに
               お任せ下さい。
             </p>
