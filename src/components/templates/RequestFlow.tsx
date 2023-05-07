@@ -7,7 +7,7 @@ export const RequestFlow = () => {
       <div className="flex justify-center items-center p-2 mb-5 font-bold bg-yellow-300 text-xl lg:px-5 lg:mb-10 lg:text-5xl">
         ご依頼〜駆除完了までの流れ
       </div>
-      <div className="flex flex-col w-full px-3 md:pl-28 md:pr-20 lg:pl-64 lg:pr-36">
+      <div className="flex flex-col w-full px-3 md:pl-28 md:pr-20 xl:pl-64 xl:pr-36">
         <Flow title="ご依頼" text="お電話・LINEにてご依頼受付中です。" />
         <Wave />
         <Flow

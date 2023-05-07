@@ -16,7 +16,7 @@ export const Promises = () => {
   return (
     <>
       <div className="hidden lg:flex items-center mt-20">
-        <div className="rounded-lg text-justify font-semibold text-2xl mx-32 p-12 promise-bg">
+        <div className="rounded-lg text-justify font-semibold text-2xl mx-24 p-12 promise-bg xl:mx-32">
           <span className="font-bold block text-4xl">{title}</span>
           <br />
           {discription}

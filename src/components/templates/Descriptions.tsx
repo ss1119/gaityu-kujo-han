@@ -32,7 +32,7 @@ export const Descriptions = () => {
       <div className="flex justify-center items-center p-2 mt-5 font-bold bg-yellow-300 text-xl lg:px-5 lg:mt-20 lg:text-5xl">
         対象の害虫・害獣
       </div>
-      <div className="pt-2 lg:grid lg:grid-cols-2 lg:wpt-5">{descriptions}</div>
+      <div className="pt-2 xl:grid xl:grid-cols-2 xl:pt-5">{descriptions}</div>
     </div>
   );
 };

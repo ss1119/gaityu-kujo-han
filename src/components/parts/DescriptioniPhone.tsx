@@ -20,7 +20,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
     }
   }
   return (
-    <div className="visible rounded-lg bg-white w-auto p-4 h-auto mx-2 mb-5 lg:hidden">
+    <div className="visible rounded-lg bg-white w-auto p-4 h-auto mx-2 mb-5 xl:hidden">
       <div className="flex flex-col items-center">
         <div className="flex items-center">
           <div className="border-2 border-black bg-white h-42 w-44 mr-4">
