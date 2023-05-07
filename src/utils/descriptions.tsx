@@ -7,7 +7,7 @@ export const descriptionContents: DescriptionEntity[] = [
     highestPrice: 15000,
     risk: 4,
     discription: (
-      <p className="text-sm text-left p-2 md:text-lg">
+      <p className="text-sm text-left p-2 xs:text-xs md:text-lg">
         アシナガバチは人間が先に攻撃しない限り、基本的に攻撃性は低いとされていますが、危険な事に変わりはありません。
         <br />
         しかし、スズメバチやオオスズメバチは人間が近づくだけでも驚異的な攻撃性を見せ、刺されてしまうとアナフィラキシーショックを引き起こし、最悪の場合死に至ってしまう、非常に危険な害虫です。
@@ -28,7 +28,7 @@ export const descriptionContents: DescriptionEntity[] = [
     highestPrice: 10000,
     risk: 5,
     discription: (
-      <p className="text-sm text-left p-2 md:text-lg">
+      <p className="text-sm text-left p-2 xs:text-xs md:text-lg">
         ムカデは凶暴で攻撃性が強い害虫です。
         <br />
         獰猛で、人間に接触した瞬間に牙で咬みつき、咬まれると毒が出て咬まれた箇所が炎症を起こします。
@@ -49,7 +49,7 @@ export const descriptionContents: DescriptionEntity[] = [
     highestPrice: 10000,
     risk: 2,
     discription: (
-      <p className="text-sm text-left p-2 md:text-lg">
+      <p className="text-sm text-left p-2 xs:text-xs md:text-lg">
         ゴキブリは非常に繁殖性の強い害虫です。
         <br />
         集団で生活しているケースが一般的で、1匹家の中で見つかった場合、他に無数のゴキブリが家の中で生息していると考えてよいです。
@@ -70,7 +70,7 @@ export const descriptionContents: DescriptionEntity[] = [
     highestPrice: 15000,
     risk: 3,
     discription: (
-      <p className="text-sm text-left p-2 md:text-lg">
+      <p className="text-sm text-left p-2 xs:text-xs md:text-lg">
         ケムシは樹木の葉っぱを食べ、成長していきます。
         <br />
         集団で１箇所の葉っぱに集中している場合が多く、刺されれば強いかゆみを伴う毛虫皮膚炎を引き起こすだけではなく、葉っぱを食い荒らす事により、樹木にも食害を及ぼします。
@@ -91,7 +91,7 @@ export const descriptionContents: DescriptionEntity[] = [
     highestPrice: 30000,
     risk: 5,
     discription: (
-      <p className="text-sm text-left p-2 md:text-lg">
+      <p className="text-sm text-left p-2 xs:text-xs md:text-lg">
         アライグマは可愛い見た目とは裏腹に、雑食で非常に繁殖性が強く、性格も獰猛で気性が荒いのが特徴です。
         <br />
         実際にアライグマを触ろうとして噛まれた実例も多数存在し、大変危険な害獣と言えるでしょう。

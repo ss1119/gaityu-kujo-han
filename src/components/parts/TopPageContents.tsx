@@ -26,7 +26,7 @@ export const TopPageContents = () => {
             </div>
           </div>
           <div className="flex justify-center px-4 mt-4">
-            <p className="text-justify font-semibold leading-relaxed md:text-xl lg:leading-loose">
+            <p className="text-justify font-semibold leading-relaxed xs:text-sm md:text-xl lg:leading-loose">
               有害ウイルスや有害な細菌を持つ『危険な害虫・害獣』の駆除は、実践経験豊富な『ホームプロテクター』のプロスタッフに
               お任せ下さい。
             </p>
