@@ -96,6 +96,15 @@
   line-height: 0.9rem;
 }
 
+.text-3xs {
+  font-size: 0.5rem;
+  line-height: 0.75rem;
+}
+
+.w-22 {
+  width: 90px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

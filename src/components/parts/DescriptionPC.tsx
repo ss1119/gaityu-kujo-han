@@ -5,7 +5,7 @@ import { WhiteStar } from "./WhiteStart";
 export const DescriptionPC = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
     return (
-      <div key={index} className="md:w-44">
+      <div key={index} className="lg:w-44">
         <img src={image} className="border-4 border-black" />
       </div>
     );
@@ -20,9 +20,9 @@ export const DescriptionPC = (props: DescriptionEntity) => {
     }
   }
   return (
-    <div className="hidden rounded-lg bg-white w-auto p-5 h-auto mb-5 mx-3 md:block">
+    <div className="hidden rounded-lg bg-white w-auto p-5 h-auto mb-5 mx-3 xl:block">
       <div className="flex flex-col">
-        <div className="flex justify-center items-center h-52">
+        <div className="flex justify-center items-center h-52 xl:h-60">
           <div className="border-4 border-black bg-white w-44">
             <p className="border-b-2 border-black text-center font-bold">
               {props.name}
