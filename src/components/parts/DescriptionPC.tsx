@@ -6,7 +6,7 @@ export const DescriptionPC = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
     return (
       <div key={index} className="lg:w-44">
-        <img src={image} className="border-4 border-black" />
+        <img src={image} />
       </div>
     );
   });
