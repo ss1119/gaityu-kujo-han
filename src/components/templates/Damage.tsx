@@ -74,7 +74,7 @@ export const Damage = () => {
               className="border-4 border-white rounded-md"
             />
           </div>
-          <div className="w-60 mt-4 ml-14 xl:w-72 xl:mt-6 xl:ml-24">
+          <div className="w-60 mt-4 ml-14 xl:w-72 xl:mt-6 xl:ml-10">
             <img
               src="assets/damages/damage2.png"
               className="border-4 border-white rounded-md"
