@@ -24,8 +24,8 @@ export const Promises = () => {
       </div>
       <div className="flex items-center mt-3 lg:hidden">
         <div className="rounded-lg text-justify font-semibold p-4 promise-bg">
-          <span className="font-bold text-xl">{title}</span>
-          <div className="mt-2">{discription}</div>
+          <span className="font-bold text-xl md:text-3xl">{title}</span>
+          <div className="mt-2 md:text-xl md:mb-5">{discription}</div>
         </div>
       </div>
     </>

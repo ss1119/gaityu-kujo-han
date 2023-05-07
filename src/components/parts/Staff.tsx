@@ -22,10 +22,10 @@ export const Staff = () => {
       </div>
       <div className="flex items-center mt-3 lg:hidden">
         <div className="rounded-lg text-justify font-semibold p-4 staff-bg">
-          <span className="font-bold text-xl">{title}</span>
+          <span className="font-bold text-xl md:text-3xl">{title}</span>
           <div className="mt-2">
             <img src="assets/icon.png" className="w-1/3 float-right ml-3" />
-            <div className="mr-3">{discription}</div>
+            <div className="mr-3 md:text-xl">{discription}</div>
           </div>
         </div>
       </div>
