@@ -3,7 +3,7 @@ import { DescriptionEntity } from "../types";
 export const descriptionContents: DescriptionEntity[] = [
   {
     name: "ハチ",
-    lowestPrice: 3000,
+    lowestPrice: 2000,
     highestPrice: 15000,
     risk: 4,
     discription: (
@@ -24,9 +24,9 @@ export const descriptionContents: DescriptionEntity[] = [
   },
   {
     name: "ムカデ",
-    lowestPrice: 3000,
-    highestPrice: 10000,
-    risk: 5,
+    lowestPrice: 2000,
+    highestPrice: 15000,
+    risk: 4,
     discription: (
       <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
         ムカデは凶暴で攻撃性が強い害虫です。
@@ -45,9 +45,9 @@ export const descriptionContents: DescriptionEntity[] = [
   },
   {
     name: "ゴキブリ",
-    lowestPrice: 3000,
-    highestPrice: 10000,
-    risk: 2,
+    lowestPrice: 2000,
+    highestPrice: 15000,
+    risk: 3,
     discription: (
       <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
         ゴキブリは非常に繁殖性の強い害虫です。
@@ -66,9 +66,9 @@ export const descriptionContents: DescriptionEntity[] = [
   },
   {
     name: "ケムシ",
-    lowestPrice: 7000,
+    lowestPrice: 2000,
     highestPrice: 15000,
-    risk: 3,
+    risk: 4,
     discription: (
       <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
         ケムシは樹木の葉っぱを食べ、成長していきます。
@@ -88,8 +88,8 @@ export const descriptionContents: DescriptionEntity[] = [
   {
     name: "アライグマ",
     lowestPrice: 15000,
-    highestPrice: 30000,
-    risk: 5,
+    highestPrice: 85000,
+    risk: 4,
     discription: (
       <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
         アライグマは可愛い見た目とは裏腹に、雑食で非常に繁殖性が強く、性格も獰猛で気性が荒いのが特徴です。
@@ -108,8 +108,8 @@ export const descriptionContents: DescriptionEntity[] = [
   },
   {
     name: "イタチ",
-    lowestPrice: 12000,
-    highestPrice: 24000,
+    lowestPrice: 15000,
+    highestPrice: 85000,
     risk: 4,
     discription: (
       <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
@@ -128,7 +128,7 @@ export const descriptionContents: DescriptionEntity[] = [
   {
     name: "タヌキ",
     lowestPrice: 15000,
-    highestPrice: 20000,
+    highestPrice: 85000,
     risk: 4,
     discription: (
       <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
@@ -146,9 +146,9 @@ export const descriptionContents: DescriptionEntity[] = [
   },
   {
     name: "ハクビシン",
-    lowestPrice: 20000,
-    highestPrice: 40000,
-    risk: 5,
+    lowestPrice: 15000,
+    highestPrice: 85000,
+    risk: 4,
     discription: (
       <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
         ハクビシンはジャコウネコ科の動物で、鼻から額にかけて白いスジがあります。
@@ -167,9 +167,9 @@ export const descriptionContents: DescriptionEntity[] = [
   },
   {
     name: "ネズミ",
-    lowestPrice: 10000,
-    highestPrice: 15000,
-    risk: 3,
+    lowestPrice: 15000,
+    highestPrice: 85000,
+    risk: 4,
     discription: (
       <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
         ネズミは衛生的被害を及ぼす、代表的な害獣と言えるでしょう。
@@ -190,8 +190,8 @@ export const descriptionContents: DescriptionEntity[] = [
   },
   {
     name: "害鳥",
-    lowestPrice: 8000,
-    highestPrice: 16000,
+    lowestPrice: 15000,
+    highestPrice: 75000,
     risk: 3,
     discription: (
       <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
@@ -211,9 +211,9 @@ export const descriptionContents: DescriptionEntity[] = [
   },
   {
     name: "コウモリ",
-    lowestPrice: 10000,
-    highestPrice: 12000,
-    risk: 4,
+    lowestPrice: 50000,
+    highestPrice: 90000,
+    risk: 5,
     discription: (
       <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
         コウモリの被害は例年春頃〜秋にかけて多く見られます。
