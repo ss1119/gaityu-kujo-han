@@ -38,9 +38,9 @@ export const descriptionContents: DescriptionEntity[] = [
     ),
     animalImage: "/assets/animals/animal2.png",
     damageImages: [
-      "/assets/no-image.png",
-      "/assets/no-image.png",
-      "/assets/no-image.png",
+      "/assets/animals/animal2-1.png",
+      "/assets/animals/animal2-2.png",
+      "/assets/animals/animal2-3.png",
     ],
   },
   {
@@ -59,9 +59,9 @@ export const descriptionContents: DescriptionEntity[] = [
     ),
     animalImage: "/assets/animals/animal3.png",
     damageImages: [
-      "/assets/no-image.png",
-      "/assets/no-image.png",
-      "/assets/no-image.png",
+      "/assets/animals/animal3-1.png",
+      "/assets/animals/animal3-2.png",
+      "/assets/animals/animal3-3.png",
     ],
   },
   {
@@ -139,7 +139,7 @@ export const descriptionContents: DescriptionEntity[] = [
     ),
     animalImage: "/assets/animals/animal7.png",
     damageImages: [
-      "/assets/no-image.png",
+      "/assets/animals/animal7-1.png",
       "/assets/no-image.png",
       "/assets/no-image.png",
     ],
@@ -176,14 +176,16 @@ export const descriptionContents: DescriptionEntity[] = [
         <br />
         複数の雑菌を持ち、感染症や皮膚炎などを引き起こす原因となります。
         <br />
-        特に人間の目に見える範囲にネズミが出てきている場合は、大変注意が必要です。最悪のケースになる前に、ご早めのご依頼を推奨致します。
+        特に人間の目に見える範囲にネズミが出てきている場合は、大変注意が必要です。
+        <br />
+        最悪のケースになる前に、ご早めのご依頼を推奨致します。
       </p>
     ),
     animalImage: "/assets/animals/animal9.png",
     damageImages: [
-      "/assets/no-image.png",
-      "/assets/no-image.png",
-      "/assets/no-image.png",
+      "/assets/animals/animal9-1.png",
+      "/assets/animals/animal9-2.png",
+      "/assets/animals/animal9-3.png",
     ],
   },
   {
@@ -201,6 +203,27 @@ export const descriptionContents: DescriptionEntity[] = [
       </p>
     ),
     animalImage: "/assets/animals/animal10.png",
+    damageImages: [
+      "/assets/animals/animal10-1.png",
+      "/assets/animals/animal10-2.png",
+      "/assets/animals/animal10-3.png",
+    ],
+  },
+  {
+    name: "コウモリ",
+    lowestPrice: 10000,
+    highestPrice: 12000,
+    risk: 4,
+    discription: (
+      <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
+        コウモリの被害は例年春頃〜秋にかけて多く見られます。
+        <br />
+        一見温厚そうで無害に思えるコウモリですが、実はエボラ出血熱や狂犬病などの超危険ウイルスの病原体の持ち主です。
+        <br />
+        駆除を行う場合、それらの超危険ウイルスを体内に吸い込んでしまう可能性がある為、コウモリ被害と思われる被害をご確認された時は絶対に自分で駆除せず、すぐにホームプロテクターへご相談下さい。
+      </p>
+    ),
+    animalImage: "/assets/animals/animal11.png",
     damageImages: [
       "/assets/no-image.png",
       "/assets/no-image.png",
