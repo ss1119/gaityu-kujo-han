@@ -86,6 +86,27 @@ export const descriptionContents: DescriptionEntity[] = [
     ],
   },
   {
+    name: "シロアリ",
+    lowestPrice: 20000,
+    highestPrice: 45000,
+    risk: 3,
+    discription: (
+      <p className="text-sm text-left p-2 xs:text-xs md:text-lg xl:text-sm">
+        最近我が家で妙によく羽アリを見かける。何て事はありませんか？
+        <br />
+        実は数々の住宅被害を引き起こしてきた歴史のあるシロアリの成虫こそが羽アリなんです。
+        <br />
+        「床がきしむ」「ドアの建付けが悪くなる」「壁や柱を叩くと空洞音がする」などの症状が出ている場合は手遅れになる前にお早めのご相談を。
+      </p>
+    ),
+    animalImage: "/assets/animals/animal5.png",
+    damageImages: [
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+      "/assets/no-image.png",
+    ],
+  },
+  {
     name: "アライグマ",
     lowestPrice: 15000,
     highestPrice: 85000,
@@ -99,11 +120,11 @@ export const descriptionContents: DescriptionEntity[] = [
         屋根裏でアライグマが生活する事による糞害や、ダニの繁殖も問題の1つと言えるでしょう。
       </p>
     ),
-    animalImage: "/assets/animals/animal5.png",
+    animalImage: "/assets/animals/animal6.png",
     damageImages: [
-      "/assets/animals/animal5-1.png",
-      "/assets/animals/animal5-2.png",
-      "/assets/animals/animal5-3.png",
+      "/assets/animals/animal6-1.png",
+      "/assets/animals/animal6-2.png",
+      "/assets/animals/animal6-3.png",
     ],
   },
   {
@@ -118,7 +139,7 @@ export const descriptionContents: DescriptionEntity[] = [
         イタチが屋根裏で走り回る音により、睡眠不足やストレスの原因にも。
       </p>
     ),
-    animalImage: "/assets/animals/animal6.png",
+    animalImage: "/assets/animals/animal7.png",
     damageImages: [
       "/assets/no-image.png",
       "/assets/no-image.png",
@@ -137,9 +158,9 @@ export const descriptionContents: DescriptionEntity[] = [
         住宅内に侵入すると、生活環境が整った事から、繁殖活動を行ってしまうケースも少なくなく、いつの間にかタヌキファミリーと同じ屋根の下で生活していた。。。なんて事も。
       </p>
     ),
-    animalImage: "/assets/animals/animal7.png",
+    animalImage: "/assets/animals/animal8.png",
     damageImages: [
-      "/assets/animals/animal7-1.png",
+      "/assets/animals/animal8-1.png",
       "/assets/no-image.png",
       "/assets/no-image.png",
     ],
@@ -158,7 +179,7 @@ export const descriptionContents: DescriptionEntity[] = [
         感染症や寄生虫を持っている可能性がある為、危険です。
       </p>
     ),
-    animalImage: "/assets/animals/animal8.png",
+    animalImage: "/assets/animals/animal9.png",
     damageImages: [
       "/assets/no-image.png",
       "/assets/no-image.png",
@@ -181,11 +202,11 @@ export const descriptionContents: DescriptionEntity[] = [
         最悪のケースになる前に、ご早めのご依頼を推奨致します。
       </p>
     ),
-    animalImage: "/assets/animals/animal9.png",
+    animalImage: "/assets/animals/animal10.png",
     damageImages: [
-      "/assets/animals/animal9-1.png",
-      "/assets/animals/animal9-2.png",
-      "/assets/animals/animal9-3.png",
+      "/assets/animals/animal10-1.png",
+      "/assets/animals/animal10-2.png",
+      "/assets/animals/animal10-3.png",
     ],
   },
   {
@@ -202,11 +223,11 @@ export const descriptionContents: DescriptionEntity[] = [
         たまたまご家庭に侵入してしまった場合、巣を作られてしまった場合などは、お早めにご依頼下さい。
       </p>
     ),
-    animalImage: "/assets/animals/animal10.png",
+    animalImage: "/assets/animals/animal11.png",
     damageImages: [
-      "/assets/animals/animal10-1.png",
-      "/assets/animals/animal10-2.png",
-      "/assets/animals/animal10-3.png",
+      "/assets/animals/animal11-1.png",
+      "/assets/animals/animal11-2.png",
+      "/assets/animals/animal11-3.png",
     ],
   },
   {
@@ -223,7 +244,7 @@ export const descriptionContents: DescriptionEntity[] = [
         駆除を行う場合、それらの超危険ウイルスを体内に吸い込んでしまう可能性がある為、コウモリ被害と思われる被害をご確認された時は絶対に自分で駆除せず、すぐにホームプロテクターへご相談下さい。
       </p>
     ),
-    animalImage: "/assets/animals/animal11.png",
+    animalImage: "/assets/animals/animal12.png",
     damageImages: [
       "/assets/no-image.png",
       "/assets/no-image.png",
