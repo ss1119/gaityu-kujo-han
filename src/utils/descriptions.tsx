@@ -81,8 +81,8 @@ export const descriptionContents: DescriptionEntity[] = [
     animalImage: "/assets/animals/animal4.png",
     damageImages: [
       "/assets/animals/animal4-1.png",
-      "/assets/no-image.png",
-      "/assets/no-image.png",
+      "/assets/animals/animal4-2.png",
+      "/assets/animals/animal4-3.png",
     ],
   },
   {
@@ -101,9 +101,9 @@ export const descriptionContents: DescriptionEntity[] = [
     ),
     animalImage: "/assets/animals/animal5.png",
     damageImages: [
-      "/assets/no-image.png",
-      "/assets/no-image.png",
-      "/assets/no-image.png",
+      "/assets/animals/animal5-1.png",
+      "/assets/animals/animal5-2.png",
+      "/assets/animals/animal5-3.png",
     ],
   },
   {
@@ -141,9 +141,9 @@ export const descriptionContents: DescriptionEntity[] = [
     ),
     animalImage: "/assets/animals/animal7.png",
     damageImages: [
-      "/assets/no-image.png",
-      "/assets/no-image.png",
-      "/assets/no-image.png",
+      "/assets/animals/animal7-1.png",
+      "/assets/animals/animal7-2.png",
+      "/assets/animals/animal7-3.png",
     ],
   },
   {
@@ -161,8 +161,8 @@ export const descriptionContents: DescriptionEntity[] = [
     animalImage: "/assets/animals/animal8.png",
     damageImages: [
       "/assets/animals/animal8-1.png",
-      "/assets/no-image.png",
-      "/assets/no-image.png",
+      "/assets/animals/animal8-2.png",
+      "/assets/animals/animal8-3.png",
     ],
   },
   {
@@ -181,9 +181,9 @@ export const descriptionContents: DescriptionEntity[] = [
     ),
     animalImage: "/assets/animals/animal9.png",
     damageImages: [
-      "/assets/no-image.png",
-      "/assets/no-image.png",
-      "/assets/no-image.png",
+      "/assets/animals/animal9-1.png",
+      "/assets/animals/animal9-2.png",
+      "/assets/animals/animal9-3.png",
     ],
   },
   {
@@ -246,9 +246,9 @@ export const descriptionContents: DescriptionEntity[] = [
     ),
     animalImage: "/assets/animals/animal12.png",
     damageImages: [
-      "/assets/no-image.png",
-      "/assets/no-image.png",
-      "/assets/no-image.png",
+      "/assets/animals/animal12-1.png",
+      "/assets/animals/animal12-2.png",
+      "/assets/animals/animal12-3.png",
     ],
   },
 ];
