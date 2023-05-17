@@ -1,3 +1,5 @@
+import { CheckBox } from "../parts/CheckBox";
+
 export const Damage = () => {
   return (
     <div className="flex flex-col items-center bg-gray-200 pt-5 pb-5 lg:pt-14 lg:pb-10">
@@ -6,42 +8,10 @@ export const Damage = () => {
       </div>
       <div className="flex">
         <div className="flex flex-col pt-2 md:pt-7 lg:pt-16 lg:mr-10">
-          <div className="flex items-center">
-            <img
-              src="assets/checkbox.png"
-              className="w-14 xs:w-8 md:w-16 md:ml-10 xl:w-24 xl:ml-24"
-            />
-            <p className="font-bold xs:text-xs md:text-xl lg:text-2xl xl:text-3xl">
-              玄関や庭周りにハチがよく飛んでいる
-            </p>
-          </div>
-          <div className="flex items-center">
-            <img
-              src="assets/checkbox.png"
-              className="w-14 xs:w-8 md:w-16 md:ml-10 xl:w-24 xl:ml-24"
-            />
-            <p className="font-bold xs:text-xs md:text-xl lg:text-2xl xl:text-3xl">
-              床下がシロアリに食われてフカフカする
-            </p>
-          </div>
-          <div className="flex items-center">
-            <img
-              src="assets/checkbox.png"
-              className="w-14 xs:w-8 md:w-16 md:ml-10 xl:w-24 xl:ml-24"
-            />
-            <p className="font-bold xs:text-xs md:text-xl lg:text-2xl xl:text-3xl">
-              屋根裏から動物の足音がする
-            </p>
-          </div>
-          <div className="flex items-center">
-            <img
-              src="assets/checkbox.png"
-              className="w-14 xs:w-8 md:w-16 md:ml-10 xl:w-24 xl:ml-24"
-            />
-            <p className="font-bold xs:text-xs md:text-xl lg:text-2xl xl:text-3xl">
-              天井からシミや悪臭が出ている
-            </p>
-          </div>
+          <CheckBox text="玄関や庭周りにハチがよく飛んでいる" />
+          <CheckBox text="床下がシロアリに食われてフカフカする" />
+          <CheckBox text="屋根裏から動物の足音がする" />
+          <CheckBox text="天井からシミや悪臭が出ている" />
           <div className="flex justify-center md:hidden">
             <div className="w-40 mt-5 mr-5 xs:w-28">
               <img
@@ -68,13 +38,13 @@ export const Damage = () => {
           </div>
         </div>
         <div className="hidden md:flex md:flex-col">
-          <div className="w-60 mt-7 xl:w-72 xl:mt-10">
+          <div className="w-56 mt-7 xl:w-72 xl:mt-10">
             <img
               src="assets/damages/damage1.png"
               className="border-4 border-white rounded-md"
             />
           </div>
-          <div className="w-60 mt-4 ml-14 xl:w-72 xl:mt-6 xl:ml-10">
+          <div className="w-56 mt-4 ml-14 mr-3 xl:w-72 xl:mt-6 xl:ml-10">
             <img
               src="assets/damages/damage2.png"
               className="border-4 border-white rounded-md"
