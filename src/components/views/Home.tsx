@@ -1,3 +1,4 @@
+import { Company } from "../parts/Company";
 import { Footer } from "../parts/Footer";
 import { Header } from "../parts/Header";
 import { TopPageContents } from "../parts/TopPageContents";
@@ -17,6 +18,7 @@ export const Home = () => {
       <Reason />
       <Damage />
       <RequestFlow />
+      <Company />
       <Footer />
     </>
   );
