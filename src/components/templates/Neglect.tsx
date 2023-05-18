@@ -1,4 +1,4 @@
-import { CheckBox } from "../parts/CheckBox";
+import { NeglectItem } from "./NeglectItem";
 
 export const Neglect = () => {
   return (
@@ -6,42 +6,54 @@ export const Neglect = () => {
       <div className="flex justify-center items-center p-2 font-bold bg-blue-300 text-lg xs:text-sm xs:py-1 md:text-4xl md:px-4 lg:px-5 lg:text-5xl">
         害虫・害獣被害を放置するとどうなる？
       </div>
-      <div className="flex">
-        <div className="flex flex-col pt-2 md:pt-8 lg:pt-16 lg:mr-10">
-          <CheckBox text="糞尿により天井や壁から悪臭がする" />
-          <CheckBox text="動物が出す騒音により眠れない" />
-          <CheckBox text="ダニや寄生虫が大量発生する" />
-          <CheckBox text="お子様やペットに危害が及ぶ可能性がある" />
-          <CheckBox text="アレルギーや感染症になるリスクがある" />
-          <CheckBox text="動物が天井で亡くなり腐敗する" />
-          <CheckBox text="動物が子供を産んで住み着いてしまう" />
-          <CheckBox text="最悪の場合、不動産価値を落としてしまう" />
-          <div className="flex justify-center md:hidden">
-            <div className="w-40 mt-5 mr-5 xs:w-28">
-              <img
-                src="assets/neglects/neglect1.png"
-                className="border-2 border-white rounded-md"
-              />
-            </div>
-            <div className="w-40 mt-5 xs:w-28">
-              <img
-                src="assets/neglects/neglect2.png"
-                className="border-2 border-white rounded-md"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="hidden md:flex md:flex-col">
-          <div className="w-56 mt-8 ml-7 xl:w-72 xl:mt-20">
-            <img
-              src="assets/neglects/neglect1.png"
-              className="border-4 border-white rounded-md"
+      <div className="w-screen">
+        <div className="flex flex-col pt-2 md:pt-8 lg:pt-16 xl:px-8">
+          <div className="xl:flex xl:pb-14">
+            <NeglectItem
+              text="糞尿により天井や壁から悪臭がする"
+              neglectFileName="neglect1.png"
+              commentFileName="comment3.png"
+            />
+            <NeglectItem
+              text="動物が出す騒音により眠れない"
+              neglectFileName="neglect2.png"
+              commentFileName="comment3.png"
             />
           </div>
-          <div className="w-56 mt-5 ml-7 xl:w-72 xl:mt-14">
-            <img
-              src="assets/neglects/neglect2.png"
-              className="border-4 border-white rounded-md"
+          <div className="xl:flex xl:pb-14">
+            <NeglectItem
+              text="ダニや寄生虫が大量発生する"
+              neglectFileName="neglect3.png"
+              commentFileName="comment3.png"
+            />
+            <NeglectItem
+              text="お子様やペットに危害が及ぶ可能性がある"
+              neglectFileName="neglect4.png"
+              commentFileName="comment4.png"
+            />
+          </div>
+          <div className="xl:flex xl:pb-14">
+            <NeglectItem
+              text="アレルギーや感染症になるリスクがある"
+              neglectFileName="neglect5.png"
+              commentFileName="comment3.png"
+            />
+            <NeglectItem
+              text="動物が天井で亡くなり腐敗する"
+              neglectFileName="neglect6.png"
+              commentFileName="comment3.png"
+            />
+          </div>
+          <div className="xl:flex xl:pb-14">
+            <NeglectItem
+              text="動物が子供を産んで住み着いてしまう"
+              neglectFileName="neglect7.png"
+              commentFileName="comment7.png"
+            />
+            <NeglectItem
+              text="最悪の場合、不動産価値を落としてしまう"
+              neglectFileName="neglect8.png"
+              commentFileName="comment8.png"
             />
           </div>
         </div>
