@@ -14,7 +14,7 @@ export const Damage = () => {
               fileName="damage1.png"
             />
             <DamageItem
-              text="床下がシロアリに食われてフカフカする"
+              text="床下がシロアリに食われてブカブカする"
               fileName="damage2.png"
             />
           </div>
