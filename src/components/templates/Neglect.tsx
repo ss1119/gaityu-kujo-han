@@ -7,7 +7,7 @@ export const Neglect = () => {
         害虫・害獣被害を放置するとどうなる？
       </div>
       <div className="w-screen">
-        <div className="flex flex-col pt-2 md:pt-8 lg:pt-16 xl:px-10">
+        <div className="flex flex-col pt-2 md:pt-8 lg:pt-16 xl:px-8">
           <div className="xl:flex xl:pb-14">
             <NeglectItem
               text="糞尿により天井や壁から悪臭がする"
@@ -48,34 +48,6 @@ export const Neglect = () => {
               fileName="neglect8.png"
             />
           </div>
-          {/* <div className="flex justify-center md:hidden">
-            <div className="w-40 mt-5 mr-5 xs:w-28">
-              <img
-                src="assets/neglects/neglect1.png"
-                className="border-2 border-white rounded-md"
-              />
-            </div>
-            <div className="w-40 mt-5 xs:w-28">
-              <img
-                src="assets/neglects/neglect2.png"
-                className="border-2 border-white rounded-md"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="hidden md:flex md:flex-col">
-          <div className="w-56 mt-8 ml-7 xl:w-72 xl:mt-20">
-            <img
-              src="assets/neglects/neglect1.png"
-              className="border-4 border-white rounded-md"
-            />
-          </div>
-          <div className="w-56 mt-5 ml-7 xl:w-72 xl:mt-14">
-            <img
-              src="assets/neglects/neglect2.png"
-              className="border-4 border-white rounded-md"
-            />
-          </div>*/}
         </div>
       </div>
     </div>
