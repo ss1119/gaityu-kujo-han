@@ -12,12 +12,12 @@ export const Neglect = () => {
             <NeglectItem
               text="糞尿により天井や壁から悪臭がする"
               neglectFileName="neglect1.png"
-              commentFileName="comment3.png"
+              commentFileName="comment1.png"
             />
             <NeglectItem
               text="動物が出す騒音により眠れない"
               neglectFileName="neglect2.png"
-              commentFileName="comment3.png"
+              commentFileName="comment2.png"
             />
           </div>
           <div className="xl:flex xl:pb-14">
@@ -36,12 +36,12 @@ export const Neglect = () => {
             <NeglectItem
               text="アレルギーや感染症になるリスクがある"
               neglectFileName="neglect5.png"
-              commentFileName="comment3.png"
+              commentFileName="comment5.png"
             />
             <NeglectItem
               text="動物が天井で亡くなり腐敗する"
               neglectFileName="neglect6.png"
-              commentFileName="comment3.png"
+              commentFileName="comment6.png"
             />
           </div>
           <div className="xl:flex xl:pb-14">
