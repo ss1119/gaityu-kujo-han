@@ -1,4 +1,5 @@
 import { DescriptionEntity } from "../../types";
+import { Call } from "./Call";
 import { RedStar } from "./RedStar";
 import { WhiteStar } from "./WhiteStart";
 
@@ -41,17 +42,18 @@ export const DescriptionPC = (props: DescriptionEntity) => {
             {props.discription}
           </div>
         </div>
-        <div className="pt-1">
-          <p className="inline-block border-double font-bold">
+        <div className="flex items-end pt-1">
+          <p className="inline-block border-double font-bold mb-9 mr-16">
             駆除料金：{props.lowestPrice}円〜{props.highestPrice}円
           </p>
+          <Call />
         </div>
-        <div className="pt-4">
+        <div className="block">
           <p className="inline-block border-double font-bold">
             {props.name}による被害例
           </p>
         </div>
-        <div className="flex justify-between mt-4 px-7">{images}</div>
+        <div className="flex justify-between mt-4 px-5">{images}</div>
       </div>
     </div>
   );
