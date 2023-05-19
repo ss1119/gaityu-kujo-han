@@ -14,8 +14,8 @@
 
 .highlight {
   text-decoration: underline;
-  text-decoration-thickness: 0.8em;
-  text-decoration-color: rgba(255, 228, 0, 0.6);
+  text-decoration-thickness: 0.5em;
+  text-decoration-color: rgba(255, 228, 0, 0.3);
   text-underline-offset: -0.5em;
   text-decoration-skip-ink: none;
 }

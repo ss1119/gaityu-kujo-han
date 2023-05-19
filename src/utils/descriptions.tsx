@@ -66,9 +66,8 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9745;&#65039; 集団で生活している！
         <br />
         &#9745;&#65039;{" "}
-        <span className="highlight">
-          1匹見つかると他にも沢山いるかも&#128166;
-        </span>
+        <span className="highlight">1匹見つかると他にも沢山いるかも</span>
+        &#128166;
         <br />
         &#9745;&#65039; 驚異的な生命力の持ち主&#128555;
       </p>
@@ -95,9 +94,8 @@ export const descriptionContents: DescriptionEntity[] = [
         <span className="highlight">毒のある毛を持っている！</span>
         <br />
         &#9745;&#65039;{" "}
-        <span className="highlight">
-          刺されると炎症を起こし強い痒みが&#128166;
-        </span>
+        <span className="highlight">刺されると炎症を起こし強い痒みが</span>
+        &#128166;
       </p>
     ),
     animalImage: "/assets/animals/animal4.png",
@@ -123,9 +121,8 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9745;&#65039; 壁や柱を叩くと空洞音が鳴る！
         <br />
         &#9745;&#65039;{" "}
-        <span className="highlight">
-          放置すると不動産価値が落ちるケースも&#128166;
-        </span>
+        <span className="highlight">放置すると不動産価値が落ちるケースも</span>
+        &#128166;
       </p>
     ),
     animalImage: "/assets/animals/animal5.png",
@@ -149,12 +146,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9745;&#65039; 雑食で繁殖性が強い！
         <br />
         &#9745;&#65039;{" "}
-        <span className="highlight">
-          実際に触ろうとして噛まれた事例も&#128166;
-        </span>
+        <span className="highlight">実際に触ろうとして噛まれた事例も</span>
+        &#128166;
         <br />
         &#9745;&#65039;{" "}
-        <span className="highlight">ダニやノミ被害の原因にも&#128555;</span>
+        <span className="highlight">ダニやノミ被害の原因にも</span>&#128555;
       </p>
     ),
     animalImage: "/assets/animals/animal6.png",
@@ -181,7 +177,7 @@ export const descriptionContents: DescriptionEntity[] = [
         <span className="highlight">騒音や糞害による悪臭被害が多い！</span>
         <br />
         &#9745;&#65039;{" "}
-        <span className="highlight">ダニやノミ被害の原因にも&#128555;</span>
+        <span className="highlight">ダニやノミ被害の原因にも</span>&#128555;
       </p>
     ),
     animalImage: "/assets/animals/animal7.png",
@@ -200,15 +196,14 @@ export const descriptionContents: DescriptionEntity[] = [
       <p className="font-semibold text-sm text-left p-2 xs:text-xs md:text-2xl xl:text-sm">
         &#9745;&#65039; 5月~9月によく被害が発生！
         <br />
-        &#9745;&#65039;{" "}
-        <span className="highlight">感染症を持っている&#129440;</span>
+        &#9745;&#65039; <span className="highlight">感染症を持っている</span>
+        &#129440;
         <br />
         &#9745;&#65039; 住宅に住み着き繁殖するケースが多い！
         <br />
         &#9745;&#65039;{" "}
-        <span className="highlight">
-          ご家庭に出没すると大変危険&#9888;&#65039;
-        </span>
+        <span className="highlight">ご家庭に出没すると大変危険</span>
+        &#9888;&#65039;
       </p>
     ),
     animalImage: "/assets/animals/animal8.png",
@@ -232,7 +227,7 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9745;&#65039; 鼻から額にかけて白いスジがある！
         <br />
         &#9745;&#65039;{" "}
-        <span className="highlight">感染症や寄生虫を持っている&#129440;</span>
+        <span className="highlight">感染症や寄生虫を持っている</span>&#129440;
         <br />
         &#9745;&#65039; 屋根裏で繁殖するケースも&#128555;
       </p>
@@ -258,14 +253,12 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9745;&#65039; 親指程の穴なら容易く侵入！
         <br />
         &#9745;&#65039;{" "}
-        <span className="highlight">
-          複数の雑菌や感染症を持っている&#129440;
-        </span>
+        <span className="highlight">複数の雑菌や感染症を持っている</span>
+        &#129440;
         <br />
         &#9745;&#65039;{" "}
-        <span className="highlight">
-          被害を放置すると皮膚炎になるリスクも&#128166;
-        </span>
+        <span className="highlight">被害を放置すると皮膚炎になるリスクも</span>
+        &#128166;
       </p>
     ),
     animalImage: "/assets/animals/animal10.png",
@@ -317,10 +310,8 @@ export const descriptionContents: DescriptionEntity[] = [
         </span>
         <br />
         &#9745;&#65039;
-        <span className="highlight">
-          {" "}
-          絶対に自分では駆除しない&#9888;&#65039;
-        </span>
+        <span className="highlight"> 絶対に自分では駆除しない</span>
+        &#9888;&#65039;
       </p>
     ),
     animalImage: "/assets/animals/animal12.png",
