@@ -12,6 +12,14 @@
   text-stroke: 1px #fff;
 }
 
+.highlight {
+  text-decoration: underline;
+  text-decoration-thickness: 0.8em;
+  text-decoration-color: rgba(255, 228, 0, 0.6);
+  text-underline-offset: -0.5em;
+  text-decoration-skip-ink: none;
+}
+
 .border-double {
   border-bottom: double;
 }
@@ -103,6 +111,14 @@
 
 .w-22 {
   width: 90px;
+}
+
+.w-description {
+  width: 95%;
+}
+
+.h-34 {
+  height: 132px;
 }
 
 body {

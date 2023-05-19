@@ -27,13 +27,15 @@ export const Header = () => {
             にお任せ下さい！
           </p>
         </div>
-        <div className="hidden lg:flex items-center shadow bg-yellow-300 rounded-md mr-8 pr-3 pl-2 py-1">
-          <img src="assets/phone.png" className="w-16" />
-          <div className="flex flex-col">
-            <p className="font-bold">お電話はこちら</p>
-            <p className="text-2xl font-bold">06-6885-7656</p>
+        <a href="tel:0668857656" className="hidden lg:flex mr-8">
+          <div className="flex items-center shadow bg-yellow-300 rounded-md pr-3 pl-2 py-1">
+            <img src="assets/phone.png" className="w-16" />
+            <div className="flex flex-col">
+              <p className="font-bold">お電話はこちら</p>
+              <p className="text-2xl font-bold">06-6885-7656</p>
+            </div>
           </div>
-        </div>
+        </a>
         <div className="flex xs:w-24 lg:hidden">
           <a
             href="tel:0668857656"
