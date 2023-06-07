@@ -95,6 +95,18 @@
   }
 }
 
+.youtube {
+  width: 55%;
+  aspect-ratio: 16/9;
+}
+
+@media screen and (max-width: 1280px) {
+  .youtube {
+    width: 80%;
+    aspect-ratio: 16/9;
+  }
+}
+
 .mt-minus-3 {
   margin-top: -3px;
 }
