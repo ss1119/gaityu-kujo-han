@@ -2,7 +2,7 @@ export const TopPageContents = () => {
   return (
     <div className="relative">
       <div className="flex justify-center">
-        <img src="/assets/animals/animals-small.png" className="lg:hidden" />
+        <img src="/assets/animals/animals-small.jpg" className="lg:hidden" />
         <img
           src="/assets/animals/animals-big.png"
           className="hidden lg:block w-11/12"
