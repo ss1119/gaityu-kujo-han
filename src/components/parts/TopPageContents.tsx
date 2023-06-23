@@ -4,7 +4,7 @@ export const TopPageContents = () => {
       <div className="flex justify-center">
         <img src="/assets/animals/animals-small.jpg" className="lg:hidden" />
         <img
-          src="/assets/animals/animals-big.png"
+          src="/assets/animals/animals-big.jpg"
           className="hidden lg:block w-11/12"
         />
       </div>
