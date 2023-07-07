@@ -1,6 +1,6 @@
 export const TopPageContents = () => {
   return (
-    <div className="relative">
+    <div className="relative bg-gray-200">
       <div className="flex justify-center">
         <img src="/assets/animals/animals-small.jpg" className="lg:hidden" />
         <img
@@ -9,28 +9,26 @@ export const TopPageContents = () => {
         />
       </div>
       <div className="flex justify-center">
-        <img src="assets/stars.png" />
+        <img src="assets/stars.jpg" className="lg:w-3/4 lg:rounded-xl" />
       </div>
-      <div className="flex justify-center">
-        <div className="w-full py-3 md:py-5 lg:py-8 bg-yellow-300">
-          <div className="flex flex-col lg:flex-row justify-center">
-            <div className="text-center font-bold lg:text-4xl text-2xl">
-              <span className="fuchidori mr-3">今だけ駆除費</span>
-              <span className="text-red-600">50%OFF</span>
-            </div>
-            <div className="flex justify-center">
-              <img
-                src="/assets/campaign.png"
-                className="w-40 pr-3 mt-1 lg:h-8 lg:pl-3 lg:mt-2"
-              />
-            </div>
+      <div className="lg:hidden">
+        <div className="flex justify-center items-center">
+          <div>
+            <img src="/assets/campaign.jpg" />
           </div>
-          <div className="flex justify-center px-4 mt-4">
-            <p className="text-justify font-semibold leading-relaxed xs:text-sm md:text-xl lg:leading-loose">
-              有害ウイルスや有害な細菌を持つ『危険な害虫・害獣』の駆除は、実践経験豊富な『ホームプロテクター』のプロスタッフに
-              お任せ下さい。
-            </p>
+        </div>
+        <div className="flex justify-center items-center">
+          <div>
+            <img src="assets/explain.jpg" />
           </div>
+        </div>
+      </div>
+      <div className="hidden lg:flex justify-center items-center mt-3 px-10">
+        <div className="w-3/5 pr-5">
+          <img src="/assets/campaign.jpg" className="rounded-xl" />
+        </div>
+        <div className="w-3/5">
+          <img src="assets/explain.jpg" className="rounded-xl" />
         </div>
       </div>
     </div>
