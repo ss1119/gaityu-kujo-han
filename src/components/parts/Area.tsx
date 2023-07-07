@@ -14,7 +14,7 @@ export const Area = () => {
   );
   return (
     <>
-      <div className="hidden lg:flex items-center mt-5">
+      <div className="hidden lg:flex items-center">
         <div className="rounded-lg text-justify font-semibold text-2xl mx-10 p-12 area-bg">
           <span className="font-bold block text-4xl">{title}</span>
           <br />
