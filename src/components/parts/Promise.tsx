@@ -27,7 +27,7 @@ export const Promises = () => {
           <span className="font-bold text-xl xs:text-base md:text-3xl">
             {title}
           </span>
-          <div className="mt-2 xs:text-xs md:text-xl md:mb-5">
+          <div className="mt-2 xs:text-xs md:text-2xl md:mb-5">
             {discription}
           </div>
         </div>

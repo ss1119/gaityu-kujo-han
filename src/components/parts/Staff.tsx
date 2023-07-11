@@ -27,7 +27,7 @@ export const Staff = () => {
           </span>
           <div className="mt-2">
             <img src="assets/icon.png" className="w-1/3 float-right ml-3" />
-            <div className="mr-3 xs:text-xs md:text-xl">{discription}</div>
+            <div className="mr-3 xs:text-xs md:text-2xl">{discription}</div>
           </div>
         </div>
       </div>
