@@ -1,6 +1,6 @@
 export const TopPageContents = () => {
   return (
-    <div className="relative bg-gray-200">
+    <div className="relative bg-gray-300">
       <div className="flex justify-center">
         <img src="/assets/animals/animals-small.jpg" className="lg:hidden" />
         <img
@@ -23,16 +23,16 @@ export const TopPageContents = () => {
           </div>
         </a>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center px-3 py-1 md:px-5 md:py-3 lg:pt-8">
         <img src="assets/stars.jpg" className="lg:w-3/4 lg:rounded-xl" />
       </div>
       <div className="lg:hidden">
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center px-3 py-1 md:px-5 md:py-3">
           <div>
             <img src="/assets/campaign.jpg" />
           </div>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center px-3 py-1 md:px-5 md:py-3">
           <div>
             <img src="assets/explain.jpg" />
           </div>
