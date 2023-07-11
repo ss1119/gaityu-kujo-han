@@ -4,7 +4,7 @@ import { Staff } from "../parts/Staff";
 
 export const Explain = () => {
   return (
-    <div className="flex flex-col items-center pt-3 md:pt-10 lg:pt-3 bg-gray-200">
+    <div className="flex flex-col items-center pt-3 md:pt-10 lg:pt-3 bg-gray-300">
       <div className="flex justify-center px-2 items-center">
         <img
           src="assets/home-protector.png"
