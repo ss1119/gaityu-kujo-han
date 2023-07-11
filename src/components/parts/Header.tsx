@@ -51,11 +51,11 @@ export const Header = () => {
       <div className="bg-opacity-80 bg-black flex items-center justify-center h-9 xs:h-9 xs:flex-col md:h-11 lg:h-13">
         <p className="whitespace-nowrap font-bold text-white text-2xs md:text-xl">
           現地調査・見積り・キャンセル料
-          <span className="text-yellow-400 ml-1 lg:ml-2">無料</span>
+          <span className="text-yellow-400 ml-1 sm:text-xs md:text-2xl lg:ml-2">無料</span>
         </p>
         <p className="whitespace-nowrap font-bold text-white text-2xs ml-2 sm:ml-3 md:ml-3 md:text-xl lg:ml-8">
           今なら
-          <span className="text-yellow-400 mx-1">50%OFF</span>
+          <span className="text-yellow-400 mx-0.5 sm:text-xs md:text-2xl">50%OFF</span>
           キャンペーン中！
         </p>
       </div>
