@@ -21,11 +21,11 @@ export const descriptionContents: DescriptionEntity[] = [
         </span>
       </p>
     ),
-    animalImage: "/assets/animals/animal1.png",
+    animalImage: "/assets/animals/animal1.jpg",
     damageImages: [
-      "/assets/animals/animal1-1.png",
-      "/assets/animals/animal1-2.png",
-      "/assets/animals/animal1-3.png",
+      "/assets/animals/animal1-1.jpg",
+      "/assets/animals/animal1-2.jpg",
+      "/assets/animals/animal1-3.jpg",
     ],
   },
   {
@@ -44,11 +44,11 @@ export const descriptionContents: DescriptionEntity[] = [
         <span className="highlight">咬まれると炎症を起こしてしまう！</span>
       </p>
     ),
-    animalImage: "/assets/animals/animal2.png",
+    animalImage: "/assets/animals/animal2.jpg",
     damageImages: [
-      "/assets/animals/animal2-1.png",
-      "/assets/animals/animal2-2.png",
-      "/assets/animals/animal2-3.png",
+      "/assets/animals/animal2-1.jpg",
+      "/assets/animals/animal2-2.jpg",
+      "/assets/animals/animal2-3.jpg",
     ],
   },
   {
@@ -72,11 +72,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9745;&#65039; 驚異的な生命力の持ち主&#128555;
       </p>
     ),
-    animalImage: "/assets/animals/animal3.png",
+    animalImage: "/assets/animals/animal3.jpg",
     damageImages: [
-      "/assets/animals/animal3-1.png",
-      "/assets/animals/animal3-2.png",
-      "/assets/animals/animal3-3.png",
+      "/assets/animals/animal3-1.jpg",
+      "/assets/animals/animal3-2.jpg",
+      "/assets/animals/animal3-3.jpg",
     ],
   },
   {
@@ -98,11 +98,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#128166;
       </p>
     ),
-    animalImage: "/assets/animals/animal4.png",
+    animalImage: "/assets/animals/animal4.jpg",
     damageImages: [
-      "/assets/animals/animal4-1.png",
-      "/assets/animals/animal4-2.png",
-      "/assets/animals/animal4-3.png",
+      "/assets/animals/animal4-1.jpg",
+      "/assets/animals/animal4-2.jpg",
+      "/assets/animals/animal4-3.jpg",
     ],
   },
   {
@@ -125,11 +125,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#128166;
       </p>
     ),
-    animalImage: "/assets/animals/animal5.png",
+    animalImage: "/assets/animals/animal5.jpg",
     damageImages: [
-      "/assets/animals/animal5-1.png",
-      "/assets/animals/animal5-2.png",
-      "/assets/animals/animal5-3.png",
+      "/assets/animals/animal5-1.jpg",
+      "/assets/animals/animal5-2.jpg",
+      "/assets/animals/animal5-3.jpg",
     ],
   },
   {
@@ -153,11 +153,11 @@ export const descriptionContents: DescriptionEntity[] = [
         <span className="highlight">ダニやノミ被害の原因にも</span>&#128555;
       </p>
     ),
-    animalImage: "/assets/animals/animal6.png",
+    animalImage: "/assets/animals/animal6.jpg",
     damageImages: [
-      "/assets/animals/animal6-1.png",
-      "/assets/animals/animal6-2.png",
-      "/assets/animals/animal6-3.png",
+      "/assets/animals/animal6-1.jpg",
+      "/assets/animals/animal6-2.jpg",
+      "/assets/animals/animal6-3.jpg",
     ],
   },
   {
@@ -180,11 +180,11 @@ export const descriptionContents: DescriptionEntity[] = [
         <span className="highlight">ダニやノミ被害の原因にも</span>&#128555;
       </p>
     ),
-    animalImage: "/assets/animals/animal7.png",
+    animalImage: "/assets/animals/animal7.jpg",
     damageImages: [
-      "/assets/animals/animal7-1.png",
-      "/assets/animals/animal7-2.png",
-      "/assets/animals/animal7-3.png",
+      "/assets/animals/animal7-1.jpg",
+      "/assets/animals/animal7-2.jpg",
+      "/assets/animals/animal7-3.jpg",
     ],
   },
   {
@@ -206,11 +206,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9888;&#65039;
       </p>
     ),
-    animalImage: "/assets/animals/animal8.png",
+    animalImage: "/assets/animals/animal8.jpg",
     damageImages: [
-      "/assets/animals/animal8-1.png",
-      "/assets/animals/animal8-2.png",
-      "/assets/animals/animal8-3.png",
+      "/assets/animals/animal8-1.jpg",
+      "/assets/animals/animal8-2.jpg",
+      "/assets/animals/animal8-3.jpg",
     ],
   },
   {
@@ -232,11 +232,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9745;&#65039; 屋根裏で繁殖するケースも&#128555;
       </p>
     ),
-    animalImage: "/assets/animals/animal9.png",
+    animalImage: "/assets/animals/animal9.jpg",
     damageImages: [
-      "/assets/animals/animal9-1.png",
-      "/assets/animals/animal9-2.png",
-      "/assets/animals/animal9-3.png",
+      "/assets/animals/animal9-1.jpg",
+      "/assets/animals/animal9-2.jpg",
+      "/assets/animals/animal9-3.jpg",
     ],
   },
   {
@@ -261,11 +261,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#128166;
       </p>
     ),
-    animalImage: "/assets/animals/animal10.png",
+    animalImage: "/assets/animals/animal10.jpg",
     damageImages: [
-      "/assets/animals/animal10-1.png",
-      "/assets/animals/animal10-2.png",
-      "/assets/animals/animal10-3.png",
+      "/assets/animals/animal10-1.jpg",
+      "/assets/animals/animal10-2.jpg",
+      "/assets/animals/animal10-3.jpg",
     ],
   },
   {
@@ -284,11 +284,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9745;&#65039; <span className="highlight">早期駆除が大切！</span>
       </p>
     ),
-    animalImage: "/assets/animals/animal11.png",
+    animalImage: "/assets/animals/animal11.jpg",
     damageImages: [
-      "/assets/animals/animal11-1.png",
-      "/assets/animals/animal11-2.png",
-      "/assets/animals/animal11-3.png",
+      "/assets/animals/animal11-1.jpg",
+      "/assets/animals/animal11-2.jpg",
+      "/assets/animals/animal11-3.jpg",
     ],
   },
   {
@@ -314,11 +314,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9888;&#65039;
       </p>
     ),
-    animalImage: "/assets/animals/animal12.png",
+    animalImage: "/assets/animals/animal12.jpg",
     damageImages: [
-      "/assets/animals/animal12-1.png",
-      "/assets/animals/animal12-2.png",
-      "/assets/animals/animal12-3.png",
+      "/assets/animals/animal12-1.jpg",
+      "/assets/animals/animal12-2.jpg",
+      "/assets/animals/animal12-3.jpg",
     ],
   },
 ];
