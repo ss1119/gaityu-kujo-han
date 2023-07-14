@@ -13,7 +13,7 @@ export const Staff = () => {
   return (
     <>
       <div className="hidden lg:flex items-center mt-10">
-        <img src="assets/icon.png" className="w-1/4 ml-14" />
+        <img src="assets/icon.webp" className="w-1/4 ml-14" />
         <div className="rounded-lg bg-white text-justify font-semibold text-2xl mx-10 p-12 staff-bg">
           <span className="font-bold block text-4xl">{title}</span>
           <br />
@@ -26,7 +26,7 @@ export const Staff = () => {
             {title}
           </span>
           <div className="mt-2">
-            <img src="assets/icon.png" className="w-1/3 float-right ml-3" />
+            <img src="assets/icon.webp" className="w-1/3 float-right ml-3" />
             <div className="mr-3 xs:text-xs md:text-2xl">{discription}</div>
           </div>
         </div>

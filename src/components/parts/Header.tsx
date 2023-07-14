@@ -4,7 +4,7 @@ export const Header = () => {
       <div className="bg-opacity-90 flex items-center justify-end py-4 h-16 pr-1 bg-gray-400 md:h-20 md:justify-between lg:h-20 lg:flex-row lg:py-2 lg:pr-0">
         <div className="flex items-center">
           <img
-            src="assets/icon.png"
+            src="assets/icon.webp"
             className="w-14 mx-2 xs:w-12 md:w-16 lg:w-20 lg:ml-10 lg:mr-3"
           />
           <div className="flex flex-col items-center">
@@ -51,11 +51,15 @@ export const Header = () => {
       <div className="bg-opacity-80 bg-black flex items-center justify-center h-9 xs:h-9 xs:flex-col md:h-11 lg:h-13">
         <p className="whitespace-nowrap font-bold text-white text-2xs md:text-xl">
           現地調査・見積り・キャンセル料
-          <span className="text-yellow-400 ml-1 sm:text-xs md:text-2xl lg:ml-2">無料</span>
+          <span className="text-yellow-400 ml-1 sm:text-xs md:text-2xl lg:ml-2">
+            無料
+          </span>
         </p>
         <p className="whitespace-nowrap font-bold text-white text-2xs ml-2 sm:ml-3 md:ml-3 md:text-xl lg:ml-8">
           今なら
-          <span className="text-yellow-400 mx-0.5 sm:text-xs md:text-2xl">50%OFF</span>
+          <span className="text-yellow-400 mx-0.5 sm:text-xs md:text-2xl">
+            50%OFF
+          </span>
           キャンペーン中！
         </p>
       </div>
