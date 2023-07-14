@@ -6,6 +6,7 @@ export const Movie = () => {
       </div>
       <iframe
         className="youtube mt-5 lg:mt-10"
+        loading="lazy"
         src="https://www.youtube.com/embed/V1OwLz300bs"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
