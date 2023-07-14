@@ -11,48 +11,48 @@ export const Neglect = () => {
           <div className="xl:flex xl:pb-14">
             <NeglectItem
               text="糞尿により天井や壁から悪臭がする"
-              neglectFileName="neglect1.jpg"
+              neglectFileName="neglect1.webp"
               commentFileName="comment1.webp"
             />
             <NeglectItem
               text="動物が出す騒音により眠れない"
-              neglectFileName="neglect2.jpg"
+              neglectFileName="neglect2.webp"
               commentFileName="comment2.webp"
             />
           </div>
           <div className="xl:flex xl:pb-14">
             <NeglectItem
               text="ダニや寄生虫が大量発生する"
-              neglectFileName="neglect3.jpg"
+              neglectFileName="neglect3.webp"
               commentFileName="comment3.webp"
             />
             <NeglectItem
               text="お子様やペットに危害が及ぶ可能性がある"
-              neglectFileName="neglect4.jpg"
+              neglectFileName="neglect4.webp"
               commentFileName="comment4.webp"
             />
           </div>
           <div className="xl:flex xl:pb-14">
             <NeglectItem
               text="アレルギーや感染症になるリスクがある"
-              neglectFileName="neglect5.jpg"
+              neglectFileName="neglect5.webp"
               commentFileName="comment5.webp"
             />
             <NeglectItem
               text="動物が天井で亡くなり腐敗する"
-              neglectFileName="neglect6.jpg"
+              neglectFileName="neglect6.webp"
               commentFileName="comment6.webp"
             />
           </div>
           <div className="xl:flex xl:pb-14">
             <NeglectItem
               text="動物が子供を産んで住み着いてしまう"
-              neglectFileName="neglect7.jpg"
+              neglectFileName="neglect7.webp"
               commentFileName="comment7.webp"
             />
             <NeglectItem
               text="最悪の場合、不動産価値を落としてしまう"
-              neglectFileName="neglect8.jpg"
+              neglectFileName="neglect8.webp"
               commentFileName="comment8.webp"
             />
           </div>
