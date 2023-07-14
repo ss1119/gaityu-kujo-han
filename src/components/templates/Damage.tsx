@@ -11,21 +11,21 @@ export const Damage = () => {
           <div className="xl:flex xl:pb-14">
             <DamageItem
               text="玄関や庭周りにハチがよく飛んでいる"
-              fileName="damage1.jpg"
+              fileName="damage1.webp"
             />
             <DamageItem
               text="床下がシロアリに食われてブカブカする"
-              fileName="damage2.jpg"
+              fileName="damage2.webp"
             />
           </div>
           <div className="xl:flex xl:pb-14">
             <DamageItem
               text="屋根裏から動物の足音がする"
-              fileName="damage3.jpg"
+              fileName="damage3.webp"
             />
             <DamageItem
               text="天井からシミや悪臭が出ている"
-              fileName="damage4.jpg"
+              fileName="damage4.webp"
             />
           </div>
           <div className="flex justify-center lg:mt-8">

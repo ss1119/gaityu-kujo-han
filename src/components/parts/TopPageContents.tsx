@@ -11,7 +11,10 @@ export const TopPageContents = () => {
       <div className="flex justify-center lg:hidden my-2 md:my-4">
         <a href="tel:0668857656">
           <div className="flex items-center shadow-lg bg-red-700 pr-7 pl-3 pt-2 pb-1 xs:py-1 xs:pr-4 xs:pl-2 hover:bg-red-600 active:scale-95">
-            <img src="assets/phone.png" className="w-14 mr-2 xs:w-10 md:w-24" />
+            <img
+              src="assets/phone.webp"
+              className="w-14 mr-2 xs:w-10 md:w-24"
+            />
             <div className="flex-col">
               <div className="inline-block font-bold bg-yellow-300 px-1 xs:text-xs md:text-xl">
                 ご相談・調査・お見積り無料！
@@ -50,7 +53,7 @@ export const TopPageContents = () => {
           <div className="hedden lg:flex justify-center pt-3">
             <a href="tel:0668857656">
               <div className="flex items-center shadow-lg bg-red-700 pr-7 pl-3 pt-2 pb-1 hover:bg-red-600 active:scale-95">
-                <img src="assets/phone.png" className="w-22 mr-2" />
+                <img src="assets/phone.webp" className="w-22 mr-2" />
                 <div className="flex-col">
                   <div className="inline-block font-bold bg-yellow-300 px-1 text-xl">
                     ご相談・調査・お見積り無料！

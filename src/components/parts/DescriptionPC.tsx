@@ -34,7 +34,7 @@ export const DescriptionPC = (props: DescriptionEntity) => {
               {risk}
             </p>
           </div>
-          <img src="/assets/arrow.png" className="h-16 px-1 xl:h-14" />
+          <img src="/assets/arrow.webp" className="h-16 px-1 xl:h-14" />
           <div className="border-4 border-black bg-white w-96">
             <p className="border-b-2 border-black text-center font-bold">
               {props.name}の特徴
