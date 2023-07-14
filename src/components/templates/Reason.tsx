@@ -11,14 +11,14 @@ export const Reason = () => {
       </div>
       <div className="flex flex-col justify-center lg:mb-10">
         <div className="flex justify-center">
-          <Crown fileName="crown1.png" />
-          <Crown fileName="crown2.png" />
-          <Crown fileName="crown3.png" />
+          <Crown fileName="crown1.webp" />
+          <Crown fileName="crown2.webp" />
+          <Crown fileName="crown3.webp" />
         </div>
         <div className="flex justify-center">
-          <Crown fileName="crown4.png" />
-          <Crown fileName="crown5.png" />
-          <Crown fileName="crown6.png" />
+          <Crown fileName="crown4.webp" />
+          <Crown fileName="crown5.webp" />
+          <Crown fileName="crown6.webp" />
         </div>
       </div>
     </div>
