@@ -12,48 +12,48 @@ export const Neglect = () => {
             <NeglectItem
               text="糞尿により天井や壁から悪臭がする"
               neglectFileName="neglect1.jpg"
-              commentFileName="comment1.png"
+              commentFileName="comment1.webp"
             />
             <NeglectItem
               text="動物が出す騒音により眠れない"
               neglectFileName="neglect2.jpg"
-              commentFileName="comment2.png"
+              commentFileName="comment2.webp"
             />
           </div>
           <div className="xl:flex xl:pb-14">
             <NeglectItem
               text="ダニや寄生虫が大量発生する"
               neglectFileName="neglect3.jpg"
-              commentFileName="comment3.png"
+              commentFileName="comment3.webp"
             />
             <NeglectItem
               text="お子様やペットに危害が及ぶ可能性がある"
               neglectFileName="neglect4.jpg"
-              commentFileName="comment4.png"
+              commentFileName="comment4.webp"
             />
           </div>
           <div className="xl:flex xl:pb-14">
             <NeglectItem
               text="アレルギーや感染症になるリスクがある"
               neglectFileName="neglect5.jpg"
-              commentFileName="comment5.png"
+              commentFileName="comment5.webp"
             />
             <NeglectItem
               text="動物が天井で亡くなり腐敗する"
               neglectFileName="neglect6.jpg"
-              commentFileName="comment6.png"
+              commentFileName="comment6.webp"
             />
           </div>
           <div className="xl:flex xl:pb-14">
             <NeglectItem
               text="動物が子供を産んで住み着いてしまう"
               neglectFileName="neglect7.jpg"
-              commentFileName="comment7.png"
+              commentFileName="comment7.webp"
             />
             <NeglectItem
               text="最悪の場合、不動産価値を落としてしまう"
               neglectFileName="neglect8.jpg"
-              commentFileName="comment8.png"
+              commentFileName="comment8.webp"
             />
           </div>
         </div>
