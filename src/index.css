@@ -26,7 +26,7 @@
 
 .reason-bg {
   background-size: cover;
-  background-image: url("./assets/reason-bg.png");
+  background-image: url("./assets/reason-bg.webp");
 }
 
 @media screen and (max-width: 480px) {
@@ -38,12 +38,12 @@
 
 .request-flow-bg {
   background-size: cover;
-  background-image: url("./assets/request-flow-bg.png");
+  background-image: url("./assets/request-flow-bg.webp");
 }
 
 @media screen and (max-width: 480px) {
   .request-flow-bg {
-    background-image: url("./assets/request-flow-bg-iPhone.png");
+    background-image: url("./assets/request-flow-bg-iPhone.webp");
     width: 100%;
     height: 80%;
   }
@@ -51,12 +51,12 @@
 
 .promise-bg {
   background-size: cover;
-  background-image: url("./assets/promise-bg.png");
+  background-image: url("./assets/promise-bg.webp");
 }
 
 @media screen and (max-width: 480px) {
   .promise-bg {
-    background-image: url("./assets/promise-bg-iPhone.png");
+    background-image: url("./assets/promise-bg-iPhone.webp");
   }
 }
 
@@ -64,13 +64,13 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("./assets/man-bg.png");
+  background-image: url("./assets/man-bg.webp");
 }
 
 @media screen and (max-width: 480px) {
   .staff-bg {
     background-size: cover;
-    background-image: url("./assets/man-bg-iPhone.png");
+    background-image: url("./assets/man-bg-iPhone.webp");
   }
 }
 
