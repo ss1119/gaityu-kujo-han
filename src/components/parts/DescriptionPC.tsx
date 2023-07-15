@@ -7,7 +7,7 @@ export const DescriptionPC = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
     return (
       <div key={index} className="lg:w-44">
-        <img src={image} />
+        <img src={image} alt={"damage" + index + 1} />
       </div>
     );
   });
@@ -28,13 +28,17 @@ export const DescriptionPC = (props: DescriptionEntity) => {
             <p className="border-b-2 border-black text-center font-bold">
               {props.name}
             </p>
-            <img src={props.animalImage} />
+            <img src={props.animalImage} alt="animal" />
             <p className="flex border-t-2 border-black text-center justify-center items-center text-sm font-bold">
               危険度：
               {risk}
             </p>
           </div>
-          <img src="/assets/arrow.webp" className="h-16 px-1 xl:h-14" />
+          <img
+            src="/assets/arrow.webp"
+            alt="arrow"
+            className="h-16 px-1 xl:h-14"
+          />
           <div className="border-4 border-black bg-white w-96">
             <p className="border-b-2 border-black text-center font-bold">
               {props.name}の特徴

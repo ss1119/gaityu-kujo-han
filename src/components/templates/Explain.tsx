@@ -8,6 +8,7 @@ export const Explain = () => {
       <div className="flex justify-center px-2 items-center">
         <img
           src="assets/home-protector.webp"
+          alt="home-protector"
           className="md:w-full lg:w-4/5 xl:w-full"
         />
       </div>

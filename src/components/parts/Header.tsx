@@ -5,6 +5,7 @@ export const Header = () => {
         <div className="flex items-center">
           <img
             src="assets/icon.webp"
+            alt="icon"
             className="w-14 mx-2 xs:w-12 md:w-16 lg:w-20 lg:ml-10 lg:mr-3"
           />
           <div className="flex flex-col items-center">
@@ -29,7 +30,7 @@ export const Header = () => {
         </div>
         <a href="tel:0668857656" className="hidden lg:flex mr-8">
           <div className="flex items-center shadow bg-yellow-300 rounded-md pr-3 pl-2 py-1">
-            <img src="assets/phone.webp" className="w-16" />
+            <img src="assets/phone.webp" alt="phone" className="w-16" />
             <div className="flex flex-col">
               <p className="font-bold">お電話はこちら</p>
               <p className="text-2xl font-bold">06-6885-7656</p>
@@ -41,10 +42,10 @@ export const Header = () => {
             href="tel:0668857656"
             className="bg-yellow-300 bg-opacity-80 shadow rounded p-0.5 ml-3 mr-1"
           >
-            <img src="assets/phone.webp" className="w-12" />
+            <img src="assets/phone.webp" alt="phone" className="w-12" />
           </a>
           <a href="https://lin.ee/mqP8zXC">
-            <img src="assets/line.png" className="w-14 md:mr-3" />
+            <img src="assets/line.png" alt="line" className="w-14 md:mr-3" />
           </a>
         </div>
       </div>

@@ -7,7 +7,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
     return (
       <div key={index} className="mx-1">
-        <img src={image} />
+        <img src={image} alt={"damage" + index + 1} />
       </div>
     );
   });
@@ -28,7 +28,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
             <p className="border-b border-black text-center font-bold xs:text-xs md:text-2xl">
               {props.name}
             </p>
-            <img src={props.animalImage} />
+            <img src={props.animalImage} alt="animal" />
             <p className="flex border-t border-black text-center justify-center items-center text-sm font-bold xs:text-xs md:text-xl">
               危険度：
               {risk}
