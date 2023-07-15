@@ -3,7 +3,7 @@ export const WhiteStar = () => {
     <img
       src="/assets/star-white.webp"
       alt="star-white"
-      className="h-3 md:h-5 lg:h-4"
+      className="w-auto h-3 md:h-5 lg:h-4"
     />
   );
 };

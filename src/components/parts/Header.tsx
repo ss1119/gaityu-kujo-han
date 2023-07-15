@@ -6,7 +6,7 @@ export const Header = () => {
           <img
             src="assets/icon.webp"
             alt="icon"
-            className="w-14 mx-2 xs:w-12 md:w-16 lg:w-20 lg:ml-10 lg:mr-3"
+            className="w-14 h-auto mx-2 xs:w-12 md:w-16 lg:w-20 lg:ml-10 lg:mr-3"
           />
           <div className="flex flex-col items-center">
             <p className="font-bold inline-block border-double text-base xs:text-xs sm:text-lg md:text-xl lg:text-xl xl:text-4xl">

@@ -52,12 +52,16 @@ export const TopPageContents = () => {
       <div className="lg:hidden">
         <div className="flex justify-center items-center px-3 py-1 md:px-5 md:py-3">
           <div>
-            <img src="/assets/campaign.webp" alt="campaign" />
+            <img
+              src="/assets/campaign.webp"
+              alt="campaign"
+              className="w-full h-full"
+            />
           </div>
         </div>
         <div className="flex justify-center items-center px-3 py-1 md:px-5 md:py-3">
           <div>
-            <img src="assets/explain.webp" alt="explain" />
+            <img src="assets/explain.webp" alt="explain" className="w-full" />
           </div>
         </div>
       </div>
@@ -66,7 +70,7 @@ export const TopPageContents = () => {
           <img
             src="/assets/campaign.webp"
             alt="campaign"
-            className="rounded-xl"
+            className="w-full h-full rounded-xl"
           />
           <div className="hedden lg:flex justify-center pt-3">
             <a href="tel:0668857656">
@@ -99,7 +103,11 @@ export const TopPageContents = () => {
           </div>
         </div>
         <div className="w-3/5">
-          <img src="assets/explain.webp" alt="explain" className="rounded-xl" />
+          <img
+            src="assets/explain.webp"
+            alt="explain"
+            className="rounded-xl w-full"
+          />
         </div>
       </div>
     </div>
