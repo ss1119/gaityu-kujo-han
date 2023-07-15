@@ -1,7 +1,5 @@
 import { DescriptionEntity } from "../../types";
 import { Call } from "./Call";
-import { RedStar } from "./RedStar";
-import { WhiteStar } from "./WhiteStart";
 
 export const DescriptioniPhone = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
@@ -15,9 +13,23 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
   const risk = [];
   for (let i = 1; i <= 5; i++) {
     if (i <= props.risk) {
-      risk.push(<RedStar key={i} />);
+      risk.push(
+        <img
+          key={i}
+          src="/assets/star-red.webp"
+          alt="star-red"
+          className="w-auto h-3 md:h-5 lg:h-4"
+        />
+      );
     } else {
-      risk.push(<WhiteStar key={i} />);
+      risk.push(
+        <img
+          key={i}
+          src="/assets/star-white.webp"
+          alt="star-white"
+          className="w-auto h-3 md:h-5 lg:h-4"
+        />
+      );
     }
   }
   return (
