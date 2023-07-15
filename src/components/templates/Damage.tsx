@@ -29,9 +29,14 @@ export const Damage = () => {
             />
           </div>
           <div className="flex justify-center lg:mt-8">
-            <img src="assets/man.webp" className="w-48 xs:w-36 md:w-96" />
+            <img
+              src="assets/man.webp"
+              alt="man"
+              className="w-48 xs:w-36 md:w-96"
+            />
             <img
               src="assets/cloud.svg"
+              alt="cloud"
               className="w-40 xs:w-32 sm:w-44 md:w-96"
             />
           </div>
