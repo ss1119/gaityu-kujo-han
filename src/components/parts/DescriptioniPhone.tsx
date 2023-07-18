@@ -19,6 +19,8 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
           src="/assets/star-red.webp"
           alt="star-red"
           className="w-auto h-3 md:h-5 lg:h-4"
+          width={10}
+          height={10}
         />
       );
     } else {
@@ -28,6 +30,8 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
           src="/assets/star-white.webp"
           alt="star-white"
           className="w-auto h-3 md:h-5 lg:h-4"
+          width={10}
+          height={10}
         />
       );
     }
