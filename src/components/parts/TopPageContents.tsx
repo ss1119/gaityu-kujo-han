@@ -61,7 +61,12 @@ export const TopPageContents = () => {
         </div>
         <div className="flex justify-center items-center px-3 py-1 md:px-28 md:py-3">
           <div className="w-full">
-            <img src="assets/explain.webp" alt="explain" />
+            <img
+              src="assets/explain.webp"
+              alt="explain"
+              width={800}
+              height={200}
+            />
           </div>
         </div>
       </div>
@@ -103,7 +108,13 @@ export const TopPageContents = () => {
           </div>
         </div>
         <div className="w-3/5">
-          <img src="assets/explain.webp" alt="explain" className="rounded-xl" />
+          <img
+            src="assets/explain.webp"
+            alt="explain"
+            className="rounded-xl"
+            width={1200}
+            height={400}
+          />
         </div>
       </div>
     </div>
