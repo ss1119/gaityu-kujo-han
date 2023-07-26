@@ -4,12 +4,12 @@ export const TopPageContents = () => {
       <div className="flex justify-center">
         <img
           src="/assets/animals/animals-small.webp"
-          alt="animals-small"
+          alt="もう安心下さい！全て我々にお任せ！プロにしかできない駆除があります。あなたのお家の害虫・害獣のお悩み全て弊社が解決致します！"
           className="lg:hidden"
         />
         <img
           src="/assets/animals/animals-big.webp"
-          alt="animals-big"
+          alt="もう安心下さい！全て我々にお任せ！プロにしかできない駆除があります。あなたのお家の害虫・害獣のお悩み全て弊社が解決致します！"
           className="hidden lg:block w-11/12"
         />
       </div>
@@ -45,7 +45,7 @@ export const TopPageContents = () => {
       <div className="flex justify-center px-3 py-1 md:px-5 md:py-3 lg:pt-8">
         <img
           src="assets/stars.webp"
-          alt="stars"
+          alt="追加料金一切ナシ、圧倒的にリーズナブル、不要な作業一切ナシ"
           className="lg:w-3/4 lg:rounded-xl"
         />
       </div>
@@ -54,7 +54,7 @@ export const TopPageContents = () => {
           <div>
             <img
               src="/assets/campaign.webp"
-              alt="campaign"
+              alt="駆除料金50%OFFキャンペーン実施中!"
               className="w-full h-full"
             />
           </div>
@@ -63,7 +63,7 @@ export const TopPageContents = () => {
           <div className="w-full">
             <img
               src="assets/explain.webp"
-              alt="explain"
+              alt="危険な害虫・害獣の駆除は経験豊富なホームプロテクターのプロスタッフにお任せください！"
               width={800}
               height={200}
             />
@@ -74,7 +74,7 @@ export const TopPageContents = () => {
         <div className="flex-row justify-center w-3/5 pr-5">
           <img
             src="/assets/campaign.webp"
-            alt="campaign"
+            alt="駆除料金50%OFFキャンペーン実施中!"
             className="w-full h-full rounded-xl"
           />
           <div className="hedden lg:flex justify-center pt-3">
@@ -110,7 +110,7 @@ export const TopPageContents = () => {
         <div className="w-3/5">
           <img
             src="assets/explain.webp"
-            alt="explain"
+            alt="危険な害虫・害獣の駆除は経験豊富なホームプロテクターのプロスタッフにお任せください！"
             className="rounded-xl"
             width={1200}
             height={400}
