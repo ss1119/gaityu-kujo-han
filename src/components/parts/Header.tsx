@@ -1,4 +1,7 @@
+import { getHour } from "../../utils/time";
+
 export const Header = () => {
+  const hour = getHour();
   return (
     <div className="sticky top-0 z-50">
       <div className="bg-opacity-90 flex items-center justify-end py-4 h-16 pr-1 bg-gray-400 md:h-20 md:justify-between lg:h-20 lg:flex-row lg:py-2 lg:pr-0">
@@ -28,22 +31,43 @@ export const Header = () => {
             にお任せ下さい！
           </p>
         </div>
-        <a href="tel:0668857656" className="hidden lg:flex mr-8">
-          <div className="flex items-center shadow bg-yellow-300 rounded-md pr-3 pl-2 py-1">
-            <img src="assets/phone.webp" alt="phone" className="w-16" />
-            <div className="flex flex-col">
-              <p className="font-bold">お電話はこちら</p>
-              <p className="text-2xl font-bold">06-6885-7656</p>
+        {9 <= hour && hour < 19 ? (
+          <a href="tel:0668857656" className="hidden lg:flex mr-8">
+            <div className="flex items-center shadow bg-yellow-300 rounded-md pr-3 pl-2 py-1">
+              <img src="assets/phone.webp" alt="phone" className="w-16" />
+              <div className="flex flex-col">
+                <p className="font-bold">お電話はこちら</p>
+                <p className="text-2xl font-bold">06-6885-7656</p>
+              </div>
             </div>
-          </div>
-        </a>
-        <div className="flex xs:w-24 lg:hidden">
-          <a
-            href="tel:0668857656"
-            className="bg-yellow-300 bg-opacity-80 shadow rounded p-0.5 ml-3 mr-1"
-          >
-            <img src="assets/phone.webp" alt="phone" className="w-12" />
           </a>
+        ) : (
+          <a href="tel:09060658318" className="hidden lg:flex mr-8">
+            <div className="flex items-center shadow bg-yellow-300 rounded-md pr-3 pl-2 py-1">
+              <img src="assets/phone.webp" alt="phone" className="w-16" />
+              <div className="flex flex-col">
+                <p className="font-bold">お電話はこちら</p>
+                <p className="text-2xl font-bold">090-6065-8318</p>
+              </div>
+            </div>
+          </a>
+        )}
+        <div className="flex xs:w-24 lg:hidden">
+          {9 <= hour && hour < 19 ? (
+            <a
+              href="tel:0668857656"
+              className="bg-yellow-300 bg-opacity-80 shadow rounded p-0.5 ml-3 mr-1"
+            >
+              <img src="assets/phone.webp" alt="phone" className="w-12" />
+            </a>
+          ) : (
+            <a
+              href="tel:09060658318"
+              className="bg-yellow-300 bg-opacity-80 shadow rounded p-0.5 ml-3 mr-1"
+            >
+              <img src="assets/phone.webp" alt="phone" className="w-12" />
+            </a>
+          )}
           <a href="https://lin.ee/mqP8zXC">
             <img src="assets/line.png" alt="line" className="w-14 md:mr-3" />
           </a>
