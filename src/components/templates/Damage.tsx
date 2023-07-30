@@ -31,12 +31,12 @@ export const Damage = () => {
           <div className="flex justify-center lg:mt-8">
             <img
               src="assets/man.webp"
-              alt="man"
+              alt="男性"
               className="w-48 xs:w-36 md:w-96"
             />
             <img
               src="assets/cloud.svg"
-              alt="cloud"
+              alt="これらの被害が見つかればすぐに当店にご連絡下さい"
               className="w-40 xs:w-32 sm:w-44 md:w-96"
             />
           </div>

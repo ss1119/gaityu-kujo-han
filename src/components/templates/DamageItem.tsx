@@ -12,7 +12,7 @@ export const DamageItem = (props: Props) => {
       <div className="flex justify-center pt-3">
         <img
           src={"assets/damages/" + props.fileName}
-          alt="damage"
+          alt={props.text}
           className="w-52 border-4 border-white rounded-md md:w-96"
         />
       </div>

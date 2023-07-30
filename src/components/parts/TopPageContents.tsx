@@ -22,7 +22,7 @@ export const TopPageContents = () => {
             <div className="flex items-center shadow-lg bg-red-700 pr-7 pl-3 pt-2 pb-1 xs:py-1 xs:pr-4 xs:pl-2 hover:bg-red-600 active:scale-95">
               <img
                 src="assets/phone.webp"
-                alt="phone"
+                alt="電話マーク"
                 className="w-14 mr-2 xs:w-10 md:w-24"
               />
               <div className="flex-col">
@@ -40,7 +40,7 @@ export const TopPageContents = () => {
             <div className="flex items-center shadow-lg bg-red-700 pr-7 pl-3 pt-2 pb-1 xs:py-1 xs:pr-4 xs:pl-2 hover:bg-red-600 active:scale-95">
               <img
                 src="assets/phone.webp"
-                alt="phone"
+                alt="電話マーク"
                 className="w-14 mr-2 xs:w-10 md:w-24"
               />
               <div className="flex-col">
@@ -58,7 +58,7 @@ export const TopPageContents = () => {
       <div className="flex lg:hidden justify-center items-center bg-black mt-2 mb-1 xs:py-0.5 md:my-4 md:py-2">
         <img
           src="assets/car.webp"
-          alt="car"
+          alt="白い車"
           className="w-16 mr-2 xs:w-10 md:w-28"
         />
         <p className="text-xl font-black text-white xs:text-base md:text-5xl">
@@ -106,7 +106,7 @@ export const TopPageContents = () => {
                 <div className="flex items-center shadow-lg bg-red-700 pr-7 pl-3 pt-2 pb-1 hover:bg-red-600 active:scale-95">
                   <img
                     src="assets/phone.webp"
-                    alt="phone"
+                    alt="電話マーク"
                     className="w-22 mr-2"
                   />
                   <div className="flex-col">
@@ -124,7 +124,7 @@ export const TopPageContents = () => {
                 <div className="flex items-center shadow-lg bg-red-700 pr-7 pl-3 pt-2 pb-1 hover:bg-red-600 active:scale-95">
                   <img
                     src="assets/phone.webp"
-                    alt="phone"
+                    alt="電話マーク"
                     className="w-22 mr-2"
                   />
                   <div className="flex-col">
@@ -142,7 +142,7 @@ export const TopPageContents = () => {
           <div className="flex justify-center items-center bg-black mt-3">
             <img
               src="assets/car.webp"
-              alt="car"
+              alt="白い車"
               className="w-20 mr-2 xl:w-24"
             />
             <p className="text-2xl font-black text-white xl:text-4xl">
