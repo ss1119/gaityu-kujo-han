@@ -11,14 +11,14 @@ export const Reason = () => {
       </div>
       <div className="flex flex-col justify-center lg:mb-10">
         <div className="flex justify-center">
-          <Crown fileName="crown1.webp" />
-          <Crown fileName="crown2.webp" />
-          <Crown fileName="crown3.webp" />
+          <Crown fileName="crown1.webp" alt="最短即日駆除" />
+          <Crown fileName="crown2.webp" alt="安心の出張料無料" />
+          <Crown fileName="crown3.webp" alt="最短5分無料見積もり" />
         </div>
         <div className="flex justify-center">
-          <Crown fileName="crown4.webp" />
-          <Crown fileName="crown5.webp" />
-          <Crown fileName="crown6.webp" />
+          <Crown fileName="crown4.webp" alt="豊富な割引サービス" />
+          <Crown fileName="crown5.webp" alt="最長10年保証" />
+          <Crown fileName="crown6.webp" alt="熟練のプロスタッフ" />
         </div>
       </div>
     </div>

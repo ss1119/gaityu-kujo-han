@@ -5,7 +5,7 @@ export const Area = () => {
         <div className="mx-20 px-12 pt-5 pb-12">
           <img
             src="assets/area.webp"
-            alt="area"
+            alt="対応地域"
             className="w-full h-full rounded-lg"
           />
         </div>
@@ -13,7 +13,7 @@ export const Area = () => {
       <div className="flex lg:hidden">
         <img
           src="assets/area.webp"
-          alt="area"
+          alt="対応地域"
           className="w-full h-full rounded-lg"
         />
       </div>

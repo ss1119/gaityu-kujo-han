@@ -13,12 +13,12 @@ export const NeglectItem = (props: Props) => {
       <div className="relative pt-3 ml-16 h-44 xs:h-36 xs:ml-9 md:h-72 md:ml-44 xl:ml-32 xl:h-80">
         <img
           src={"assets/neglects/" + props.neglectFileName}
-          alt="neglect"
+          alt="害虫・害獣の被害を放置するとどうなるのか？"
           className="absolute w-56 border-4 border-white rounded-md xs:w-44 md:w-96"
         />
         <img
           src={"assets/comments/" + props.commentFileName}
-          alt="comment"
+          alt={props.text}
           className="absolute w-32 top-8 left-40 xs:w-28 xs:left-32 sm:w-36 sm:top-5 md:w-64 md:left-72 xl:w-60 xl:top-16 xl:left-1/2"
         />
       </div>

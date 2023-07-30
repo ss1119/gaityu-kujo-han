@@ -5,7 +5,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
     return (
       <div key={index} className="mx-1">
-        <img src={image} alt={"damage" + index + 1} />
+        <img src={image} alt={"害虫・害獣による被害例：" + index + 1} />
       </div>
     );
   });
@@ -17,7 +17,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
         <img
           key={i}
           src="/assets/star-red.webp"
-          alt="star-red"
+          alt="赤い星"
           className="w-auto h-3 md:h-5 lg:h-4"
           width={10}
           height={10}
@@ -28,7 +28,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
         <img
           key={i}
           src="/assets/star-white.webp"
-          alt="star-white"
+          alt="白い星"
           className="w-auto h-3 md:h-5 lg:h-4"
           width={10}
           height={10}
@@ -44,7 +44,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
             <p className="border-b border-black text-center font-bold xs:text-xs md:text-2xl">
               {props.name}
             </p>
-            <img src={props.animalImage} alt="animal" />
+            <img src={props.animalImage} alt="害虫・害獣" />
             <p className="flex border-t border-black text-center justify-center items-center text-sm font-bold xs:text-xs md:text-xl">
               危険度：
               {risk}
