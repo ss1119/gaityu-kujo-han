@@ -1,34 +1,65 @@
+import { Arrow } from "../parts/Arrow";
 import { Flow } from "../parts/Flow";
-import { Wave } from "../parts/Wave";
 
 export const RequestFlow = () => {
   return (
-    <div className="flex flex-col items-center request-flow-bg pt-5 pb-7 md:pb-14 lg:pt-14 lg:pb-14">
-      <div className="flex justify-center items-center p-2 mb-5 font-bold bg-yellow-300 text-xl xs:text-sm xs:py-1 md:text-4xl md:px-4 lg:px-5 lg:mb-10 lg:text-5xl">
+    <div className="flex flex-col items-center bg-gray-300 pb-7 md:pb-14 lg:pb-14">
+      <div className="flex justify-center items-center p-2 mb-5 font-bold bg-yellow-300 text-xl xs:text-sm xs:py-1 xs:mb-3 md:text-4xl md:px-4 lg:px-5 lg:mb-10 lg:text-5xl">
         ご依頼〜駆除完了までの流れ
       </div>
-      <div className="flex flex-col w-full px-3 md:pl-16 md:pr-16 lg:pl-28 lg:pr-20 xl:pl-64 xl:pr-36">
-        <Flow title="ご依頼" text="お電話・LINEにてご依頼受付中です。" />
-        <Wave />
+      <div className="flex flex-col lg:hidden w-full px-3 md:pl-16 md:pr-16 lg:pl-28 lg:pr-20 xl:pl-64 xl:pr-36">
         <Flow
-          title="無料現地調査"
-          text="最短１０分で駆けつけます。見積りをご提示させていただいた後、料金にご納得いただけましたら駆除を開始させていただきます。"
+          fileName="step1.webp"
+          text="ご相談：お電話・公式LINEでまずはお気軽にご相談下さい"
         />
-        <Wave />
+        <Arrow />
         <Flow
-          title="見積り"
-          text="見積り金額にご満足頂けない場合はキャンセル可能。出張料・見積り料・キャンセル料は一切発生しないため、お気軽にご依頼ください。"
+          fileName="step2.webp"
+          text="無料現地調査：ご依頼から最短10分で到着し、プロが隅々まで点検します"
         />
-        <Wave />
+        <Arrow />
         <Flow
-          title="駆除開始"
-          text="害虫・害獣の駆除はもちろんのこと、徹底的な除菌・清掃作業、再発防止のための原因探しを御約束致します。"
+          fileName="step3.webp"
+          text="お見積もり：不要な作業は一切ナシ、料金にご満足いただけない場合はその場でキャンセル可能です"
         />
-        <Wave />
+        <Arrow />
         <Flow
-          title="駆除完了"
-          text="被害箇所のビフォーアフターをご覧いただき、駆除後の状況をご説明させていただきます。"
+          fileName="step4.webp"
+          text="作業開始：徹底的な駆除・清掃・除菌・消臭作業を行います"
         />
+        <Arrow />
+        <Flow
+          fileName="step5.webp"
+          text="駆除完了：最長10年保証でずっと安心、保証期間中は何度でも無料で駆けつけます"
+        />
+      </div>
+      <div className="hidden lg:flex flex-col">
+        <div className="flex justify-center">
+          <Flow
+            fileName="step1.webp"
+            text="ご相談：お電話・公式LINEでまずはお気軽にご相談下さい"
+          />
+          <Flow
+            fileName="step2.webp"
+            text="無料現地調査：ご依頼から最短10分で到着し、プロが隅々まで点検します"
+          />
+        </div>
+        <div className="flex justify-center pt-8">
+          <Flow
+            fileName="step3.webp"
+            text="お見積もり：不要な作業は一切ナシ、料金にご満足いただけない場合はその場でキャンセル可能です"
+          />
+          <Flow
+            fileName="step4.webp"
+            text="作業開始：徹底的な駆除・清掃・除菌・消臭作業を行います"
+          />
+        </div>
+        <div className="flex justify-center pt-8">
+          <Flow
+            fileName="step5.webp"
+            text="駆除完了：最長10年保証でずっと安心、保証期間中は何度でも無料で駆けつけます"
+          />
+        </div>
       </div>
     </div>
   );
