@@ -51,7 +51,7 @@ export const DescriptionPC = (props: DescriptionEntity) => {
             </p>
           </div>
           <img
-            src="/assets/arrow.webp"
+            src="/assets/arrow-right.webp"
             alt="矢印"
             className="h-16 px-1 xl:h-14"
           />
