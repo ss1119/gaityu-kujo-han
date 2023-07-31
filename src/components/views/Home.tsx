@@ -18,10 +18,10 @@ export const Home = () => {
       <Explain />
       <Movie />
       <Descriptions />
+      <RequestFlow />
       <Reason />
       <Damage />
       <Neglect />
-      <RequestFlow />
       <Company />
       <Footer />
     </>
