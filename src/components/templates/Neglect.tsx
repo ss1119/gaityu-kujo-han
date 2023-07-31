@@ -2,7 +2,7 @@ import { NeglectItem } from "./NeglectItem";
 
 export const Neglect = () => {
   return (
-    <div className="flex flex-col items-center bg-gray-300 pt-5 pb-5 lg:pt-14 lg:pb-10">
+    <div className="flex flex-col items-center bg-gray-300 pt-5 lg:pt-14 lg:pb-10">
       <div className="flex justify-center items-center p-2 font-bold bg-blue-300 text-lg xs:text-sm xs:py-1 md:text-4xl md:px-4 lg:px-5 lg:text-5xl">
         害虫・害獣被害を放置するとどうなる？
       </div>

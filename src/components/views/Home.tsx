@@ -9,6 +9,7 @@ import { Movie } from "../templates/Movie";
 import { Neglect } from "../templates/Neglect";
 import { Reason } from "../templates/Reason";
 import { RequestFlow } from "../templates/RequestFlow";
+import { Review } from "../templates/Review";
 
 export const Home = () => {
   return (
@@ -22,6 +23,7 @@ export const Home = () => {
       <Reason />
       <Damage />
       <Neglect />
+      <Review />
       <Company />
       <Footer />
     </>

@@ -2,7 +2,7 @@ export const Company = () => {
   return (
     <div className="flex items-center justify-center py-2 lg:py-10 bg-gray-300">
       <div className="px-2 w-full md:px-3 lg:w-4/5 lg:px-0">
-        <div className="flex justify-center items-center font-bold text-base mb-1 xs:text-sm md:text-xl lg:mb-3 lg:text-3xl">
+        <div className="flex justify-center items-center font-bold text-base mb-1 xs:text-sm md:text-2xl lg:mb-3 lg:text-3xl">
           会社概要
         </div>
         <div className="flex items-center justify-center bg-white rounded-md p-3 mb-4 lg:p-4">
