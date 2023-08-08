@@ -108,7 +108,7 @@ export const descriptionContents: DescriptionEntity[] = [
   {
     name: "シロアリ",
     lowestPrice: 20000,
-    highestPrice: 45000,
+    highestPrice: 0,
     risk: 3,
     discription: (
       <p className="font-semibold text-sm text-left p-2 xs:text-xs md:text-2xl xl:text-sm">
