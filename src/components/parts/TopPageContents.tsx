@@ -8,12 +8,12 @@ export const TopPageContents = () => {
         <img
           src="/assets/animals/animals-small.webp"
           alt="もう安心下さい！全て我々にお任せ！プロにしかできない駆除があります。あなたのお家の害虫・害獣のお悩み全て弊社が解決致します！"
-          className="lg:hidden"
+          className="lg:hidden md:w-full"
         />
         <img
           src="/assets/animals/animals-big.webp"
           alt="もう安心下さい！全て我々にお任せ！プロにしかできない駆除があります。あなたのお家の害虫・害獣のお悩み全て弊社が解決致します！"
-          className="hidden lg:block w-11/12"
+          className="hidden lg:block w-full"
         />
       </div>
       <div className="flex justify-center lg:hidden my-2 md:my-4">
