@@ -64,7 +64,10 @@ export const DescriptionPC = (props: DescriptionEntity) => {
         </div>
         <div className="flex items-end pt-1">
           <p className="inline-block border-double font-bold mb-9 mr-16">
-            駆除料金：{props.lowestPrice}円〜{props.highestPrice}円
+            {props.highestPrice === 0
+              ? `駆除料金：${props.lowestPrice}円〜`
+              : `駆除料金：${props.lowestPrice}円〜
+            ${props.highestPrice}円`}
           </p>
           <Call />
         </div>
