@@ -20,6 +20,11 @@ export const Estimate = () => {
         <img
           src="assets/estimates/estimate4.webp"
           alt="STEP7:「確認画面へ」をタップ。STEP8:「送信する」をタップ"
+          className="mx-4 mb-5 xs:mb-3 md:mb-10"
+        />
+        <img
+          src="assets/estimates/estimate5.webp"
+          alt="STEP9:見積り完了。あとは待つだけで大丈夫です"
           className="mx-4"
         />
       </div>
