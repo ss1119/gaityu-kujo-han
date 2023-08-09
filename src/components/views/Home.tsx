@@ -1,4 +1,5 @@
 import { Company } from "../parts/Company";
+import { Estimate } from "../parts/Estimate";
 import { Footer } from "../parts/Footer";
 import { Header } from "../parts/Header";
 import { TopPageContents } from "../parts/TopPageContents";
@@ -19,6 +20,7 @@ export const Home = () => {
       <Explain />
       <Movie />
       <Descriptions />
+      <Estimate />
       <RequestFlow />
       <Reason />
       <Damage />
