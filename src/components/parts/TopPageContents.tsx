@@ -73,7 +73,7 @@ export const TopPageContents = () => {
         />
       </div>
       <div className="lg:hidden">
-        <div className="flex justify-center items-center px-3 py-1 md:px-5 md:py-3">
+        <div className="flex justify-center items-center px-3 py-1 md:px-10 md:py-3">
           <div>
             <img
               src="/assets/campaign.webp"
@@ -82,7 +82,7 @@ export const TopPageContents = () => {
             />
           </div>
         </div>
-        <div className="flex justify-center items-center px-3 py-1 md:px-28 md:py-3">
+        <div className="flex justify-center items-center px-3 py-1 md:px-10 md:py-3">
           <div className="w-full">
             <img
               src="assets/explain.webp"
@@ -94,13 +94,26 @@ export const TopPageContents = () => {
         </div>
       </div>
       <div className="hidden lg:flex justify-center items-center mt-3 px-10">
-        <div className="flex-row justify-center w-3/5 pr-5">
-          <img
-            src="/assets/campaign.webp"
-            alt="駆除料金50%OFFキャンペーン実施中!"
-            className="w-full h-full rounded-xl"
-          />
-          <div className="hedden lg:flex justify-center pt-3">
+        <div className="flex-row">
+          <div className="flex justify-center">
+            <div className="w-3/5 pr-10">
+              <img
+                src="/assets/campaign.webp"
+                alt="駆除料金50%OFFキャンペーン実施中!"
+                className="w-full h-full rounded-xl"
+              />
+            </div>
+            <div className="w-3/5">
+              <img
+                src="assets/explain.webp"
+                alt="危険な害虫・害獣の駆除は経験豊富なホームプロテクターのプロスタッフにお任せください！"
+                className="rounded-xl"
+                width={1200}
+                height={400}
+              />
+            </div>
+          </div>
+          <div className="flex justify-center pt-3">
             {9 <= hour && hour < 19 ? (
               <a href="tel:0668857656">
                 <div className="flex items-center shadow-lg bg-red-700 pr-7 pl-3 pt-2 pb-1 hover:bg-red-600 active:scale-95">
@@ -139,7 +152,7 @@ export const TopPageContents = () => {
               </a>
             )}
           </div>
-          <div className="flex justify-center items-center bg-black mt-3">
+          <div className="flex justify-center items-center bg-black mx-64 mt-3">
             <img
               src="assets/car.webp"
               alt="白い車"
@@ -149,15 +162,6 @@ export const TopPageContents = () => {
               電話１本ですぐに駆けつけ！
             </p>
           </div>
-        </div>
-        <div className="w-3/5">
-          <img
-            src="assets/explain.webp"
-            alt="危険な害虫・害獣の駆除は経験豊富なホームプロテクターのプロスタッフにお任せください！"
-            className="rounded-xl"
-            width={1200}
-            height={400}
-          />
         </div>
       </div>
     </div>
