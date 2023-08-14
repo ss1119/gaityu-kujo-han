@@ -133,6 +133,34 @@ export const descriptionContents: DescriptionEntity[] = [
     ],
   },
   {
+    name: "トコジラミ",
+    lowestPrice: 9500,
+    highestPrice: 0,
+    risk: 4,
+    discription: (
+      <p className="font-semibold text-sm text-left p-2 xs:text-xs md:text-2xl xl:text-sm">
+        &#9745;&#65039; 人や動物の血液をエサとする&#128561;
+        <br />
+        &#9745;&#65039;{" "}
+        <span className="highlight">
+          刺されると赤く腫れ上がり強烈に痒くなる
+        </span>
+        &#128166;
+        <br />
+        &#9745;&#65039; 爆発的な繁殖力を持つ害虫！
+        <br />
+        &#9745;&#65039; 駆除するのが非常に困難な害虫！
+        <br />
+      </p>
+    ),
+    animalImage: "/assets/animals/animal6.webp",
+    damageImages: [
+      "/assets/animals/animal6-1.webp",
+      "/assets/animals/animal6-2.webp",
+      "/assets/animals/animal6-3.webp",
+    ],
+  },
+  {
     name: "アライグマ",
     lowestPrice: 15000,
     highestPrice: 85000,
@@ -153,11 +181,11 @@ export const descriptionContents: DescriptionEntity[] = [
         <span className="highlight">ダニやノミ被害の原因にも</span>&#128555;
       </p>
     ),
-    animalImage: "/assets/animals/animal6.jpg",
+    animalImage: "/assets/animals/animal7.jpg",
     damageImages: [
-      "/assets/animals/animal6-1.jpg",
-      "/assets/animals/animal6-2.jpg",
-      "/assets/animals/animal6-3.jpg",
+      "/assets/animals/animal7-1.jpg",
+      "/assets/animals/animal7-2.jpg",
+      "/assets/animals/animal7-3.jpg",
     ],
   },
   {
@@ -180,11 +208,11 @@ export const descriptionContents: DescriptionEntity[] = [
         <span className="highlight">ダニやノミ被害の原因にも</span>&#128555;
       </p>
     ),
-    animalImage: "/assets/animals/animal7.jpg",
+    animalImage: "/assets/animals/animal8.jpg",
     damageImages: [
-      "/assets/animals/animal7-1.jpg",
-      "/assets/animals/animal7-2.jpg",
-      "/assets/animals/animal7-3.jpg",
+      "/assets/animals/animal8-1.jpg",
+      "/assets/animals/animal8-2.jpg",
+      "/assets/animals/animal8-3.jpg",
     ],
   },
   {
@@ -206,11 +234,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9888;&#65039;
       </p>
     ),
-    animalImage: "/assets/animals/animal8.jpg",
+    animalImage: "/assets/animals/animal9.jpg",
     damageImages: [
-      "/assets/animals/animal8-1.jpg",
-      "/assets/animals/animal8-2.jpg",
-      "/assets/animals/animal8-3.jpg",
+      "/assets/animals/animal9-1.jpg",
+      "/assets/animals/animal9-2.jpg",
+      "/assets/animals/animal9-3.jpg",
     ],
   },
   {
@@ -232,11 +260,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9745;&#65039; 屋根裏で繁殖するケースも&#128555;
       </p>
     ),
-    animalImage: "/assets/animals/animal9.jpg",
+    animalImage: "/assets/animals/animal10.jpg",
     damageImages: [
-      "/assets/animals/animal9-1.jpg",
-      "/assets/animals/animal9-2.jpg",
-      "/assets/animals/animal9-3.jpg",
+      "/assets/animals/animal10-1.jpg",
+      "/assets/animals/animal10-2.jpg",
+      "/assets/animals/animal10-3.jpg",
     ],
   },
   {
@@ -261,11 +289,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#128166;
       </p>
     ),
-    animalImage: "/assets/animals/animal10.jpg",
+    animalImage: "/assets/animals/animal11.jpg",
     damageImages: [
-      "/assets/animals/animal10-1.jpg",
-      "/assets/animals/animal10-2.jpg",
-      "/assets/animals/animal10-3.jpg",
+      "/assets/animals/animal11-1.jpg",
+      "/assets/animals/animal11-2.jpg",
+      "/assets/animals/animal11-3.jpg",
     ],
   },
   {
@@ -284,11 +312,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9745;&#65039; <span className="highlight">早期駆除が大切！</span>
       </p>
     ),
-    animalImage: "/assets/animals/animal11.jpg",
+    animalImage: "/assets/animals/animal12.jpg",
     damageImages: [
-      "/assets/animals/animal11-1.jpg",
-      "/assets/animals/animal11-2.jpg",
-      "/assets/animals/animal11-3.jpg",
+      "/assets/animals/animal12-1.jpg",
+      "/assets/animals/animal12-2.jpg",
+      "/assets/animals/animal12-3.jpg",
     ],
   },
   {
@@ -314,43 +342,11 @@ export const descriptionContents: DescriptionEntity[] = [
         &#9888;&#65039;
       </p>
     ),
-    animalImage: "/assets/animals/animal12.jpg",
+    animalImage: "/assets/animals/animal13.jpg",
     damageImages: [
-      "/assets/animals/animal12-1.jpg",
-      "/assets/animals/animal12-2.jpg",
-      "/assets/animals/animal12-3.jpg",
-    ],
-  },
-  {
-    name: "トコジラミ",
-    lowestPrice: 9500,
-    highestPrice: 0,
-    risk: 4,
-    discription: (
-      <p className="font-semibold text-sm text-left p-2 xs:text-xs md:text-2xl xl:text-sm">
-        &#9745;&#65039; 人や動物の血液をエサとする&#128561;
-        <br />
-        &#9745;&#65039;{" "}
-        <span className="highlight">
-          刺されると赤く腫れ上がり強烈に痒くなる
-        </span>
-        &#128166;
-        <br />
-        &#9745;&#65039;{" "}
-        <span className="highlight">
-          アナフィラキシーショックを起こす可能性も
-        </span>
-        &#128534;
-        <br />
-        &#9745;&#65039; 駆除するのが非常に困難な害虫！
-        <br />
-      </p>
-    ),
-    animalImage: "/assets/animals/animal13.webp",
-    damageImages: [
-      "/assets/animals/animal13-1.webp",
-      "/assets/animals/animal13-2.webp",
-      "/assets/animals/animal13-3.webp",
+      "/assets/animals/animal13-1.jpg",
+      "/assets/animals/animal13-2.jpg",
+      "/assets/animals/animal13-3.jpg",
     ],
   },
 ];
