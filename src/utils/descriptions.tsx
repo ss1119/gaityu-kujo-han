@@ -325,7 +325,7 @@ export const descriptionContents: DescriptionEntity[] = [
     name: "トコジラミ",
     lowestPrice: 9500,
     highestPrice: 0,
-    risk: 3,
+    risk: 4,
     discription: (
       <p className="font-semibold text-sm text-left p-2 xs:text-xs md:text-2xl xl:text-sm">
         &#9745;&#65039; 人や動物の血液をエサとする&#128561;
