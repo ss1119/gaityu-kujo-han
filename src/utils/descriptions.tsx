@@ -107,7 +107,7 @@ export const descriptionContents: DescriptionEntity[] = [
   },
   {
     name: "シロアリ",
-    lowestPrice: 20000,
+    lowestPrice: 2000,
     highestPrice: 0,
     risk: 3,
     discription: (
@@ -134,7 +134,7 @@ export const descriptionContents: DescriptionEntity[] = [
   },
   {
     name: "トコジラミ",
-    lowestPrice: 9500,
+    lowestPrice: 1000,
     highestPrice: 0,
     risk: 4,
     discription: (
