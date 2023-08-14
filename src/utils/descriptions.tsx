@@ -321,4 +321,36 @@ export const descriptionContents: DescriptionEntity[] = [
       "/assets/animals/animal12-3.jpg",
     ],
   },
+  {
+    name: "トコジラミ",
+    lowestPrice: 9500,
+    highestPrice: 0,
+    risk: 3,
+    discription: (
+      <p className="font-semibold text-sm text-left p-2 xs:text-xs md:text-2xl xl:text-sm">
+        &#9745;&#65039; 人や動物の血液をエサとする&#128561;
+        <br />
+        &#9745;&#65039;{" "}
+        <span className="highlight">
+          刺されると赤く腫れ上がり強烈に痒くなる
+        </span>
+        &#128166;
+        <br />
+        &#9745;&#65039;{" "}
+        <span className="highlight">
+          アナフィラキシーショックを起こす可能性も
+        </span>
+        &#128534;
+        <br />
+        &#9745;&#65039; 駆除するのが非常に困難な害虫！
+        <br />
+      </p>
+    ),
+    animalImage: "/assets/animals/animal13.webp",
+    damageImages: [
+      "/assets/animals/animal13-1.webp",
+      "/assets/animals/animal13-2.webp",
+      "/assets/animals/animal13-3.webp",
+    ],
+  },
 ];
