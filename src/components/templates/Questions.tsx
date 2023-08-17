@@ -2,7 +2,7 @@ import { Question } from "../parts/Question";
 
 export const Questions = () => {
   return (
-    <div className="bg-gray-300 pt-8 md:pt-10 lg:pt-20">
+    <div className="bg-gray-300 pt-8 md:pt-16 lg:pt-20">
       <div className="flex flex-col items-center">
         <div className="flex flex-col lg:hidden w-full px-3 md:pl-16 md:pr-16">
           <Question

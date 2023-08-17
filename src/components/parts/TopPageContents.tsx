@@ -69,7 +69,7 @@ export const TopPageContents = () => {
         <img
           src="assets/stars.webp"
           alt="追加料金一切ナシ、圧倒的にリーズナブル、不要な作業一切ナシ"
-          className="lg:w-3/4 lg:rounded-xl"
+          className="md:w-11/12 lg:w-3/4 lg:rounded-xl"
         />
       </div>
       <div className="lg:hidden">
