@@ -8,6 +8,7 @@ import { Descriptions } from "../templates/Descriptions";
 import { Explain } from "../templates/Explain";
 import { Movie } from "../templates/Movie";
 import { Neglect } from "../templates/Neglect";
+import { Questions } from "../templates/Questions";
 import { Reason } from "../templates/Reason";
 import { RequestFlow } from "../templates/RequestFlow";
 import { Review } from "../templates/Review";
@@ -18,6 +19,7 @@ export const Home = () => {
       <Header />
       <TopPageContents />
       <Explain />
+      <Questions/>
       <Movie />
       <Descriptions />
       <Estimate />
