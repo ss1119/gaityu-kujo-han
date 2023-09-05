@@ -122,6 +122,22 @@
   height: 132px;
 }
 
+@keyframes customAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.custom-animation {
+  animation: customAnimation 1.5s infinite alternate; /* アニメーションを2秒間繰り返す */
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

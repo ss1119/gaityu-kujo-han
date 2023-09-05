@@ -4,7 +4,7 @@ export const Call = () => {
   const hour = getHour();
   return (
     <div className="relative bg-white">
-      <div className="flex justify-center lg:hidden my-2 md:my-4">
+      <div className="flex justify-center lg:hidden my-2 md:my-4 custom-animation">
         {9 <= hour && hour < 19 ? (
           <a href="tel:0668857656">
             <div className="flex items-center shadow-lg bg-orange-600 pr-7 pl-3 pt-2 pb-1 xs:py-1 xs:pr-4 xs:pl-2 hover:bg-orange-500 active:scale-95">
