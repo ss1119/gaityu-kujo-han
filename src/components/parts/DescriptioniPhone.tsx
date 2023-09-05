@@ -1,5 +1,5 @@
 import { DescriptionEntity } from "../../types";
-import { Call } from "./Call";
+import { RequestButton } from "./RequestButton";
 
 export const DescriptioniPhone = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
@@ -60,7 +60,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
                 ? `${props.lowestPrice}円 / 1㎡（税別）`
                 : `${props.lowestPrice}〜${props.highestPrice}円（税別）`}
             </p>
-            <Call />
+            <RequestButton />
           </div>
         </div>
         <div className="border-2 border-black bg-white text-sm w-description mt-3 mx-3 xs:text-xs md:w-4/5">
