@@ -1,6 +1,6 @@
 export const Explain = () => {
   return (
-    <div className="flex flex-col items-center bg-white">
+    <div className="flex flex-col items-center bg-white md:pb-5 lg:pb-10">
       <div className="flex justify-center px-2 items-center">
         <img
           src="assets/home-protector.webp"
