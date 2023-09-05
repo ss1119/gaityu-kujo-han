@@ -135,7 +135,7 @@
 }
 
 .custom-animation {
-  animation: customAnimation 1.5s infinite alternate; /* アニメーションを2秒間繰り返す */
+  animation: customAnimation 1.5s infinite alternate;
 }
 
 body {
