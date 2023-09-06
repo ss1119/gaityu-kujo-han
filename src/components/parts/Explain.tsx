@@ -17,7 +17,7 @@ export const Explain = () => {
         <img
           src="assets/staff.webp"
           alt="スタッフについて"
-          className="w-full rounded-lg"
+          className="w-full md:rounded-lg"
         />
       </div>
       <div className="hidden lg:flex items-center pt-6">
