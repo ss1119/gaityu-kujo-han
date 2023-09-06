@@ -4,28 +4,30 @@ export const Header = () => {
   const hour = getHour();
   return (
     <div className="sticky top-0 z-50">
-      <div className="bg-opacity-90 flex items-center justify-end py-4 h-16 pr-1 bg-gray-400 md:h-20 md:justify-between lg:h-20 lg:flex-row lg:py-2 lg:pr-0">
+      <div className="bg-opacity-90 flex items-center justify-end py-4 h-16 pr-1 bg-white md:h-20 md:justify-between lg:h-20 lg:flex-row lg:py-2 lg:pr-0">
         <div className="flex items-center">
           <img
             src="assets/icon.webp"
             alt="ホームプロテクターのアイコン"
-            className="w-14 h-auto mx-2 xs:w-12 md:w-16 lg:w-20 lg:ml-10 lg:mr-3"
+            className="w-12 mx-2 xs:w-12 md:w-16 md:ml-7 lg:w-20 lg:ml-10 lg:mr-3"
           />
           <div className="flex flex-col items-center">
             <p className="font-bold inline-block border-double text-base xs:text-xs sm:text-lg md:text-xl lg:text-xl xl:text-4xl">
               ホームプロテクター
             </p>
-            <p className="font-bold text-left xs:text-xs md:text-base lg:text-xl lg:mt-1 xl:text-2xl">
-              害虫・害獣駆除
+            <p className="font-bold text-left text-xs xs:text-center xs:leading-3 xs:pt-0.5 sm:text-sm md:text-base lg:text-xl lg:mt-1 xl:text-2xl">
+              害虫駆除
+              <br className="hidden xs:flex" />
+              プロフェッショナル
             </p>
           </div>
         </div>
-        <div className="hidden items-center md:flex lg:flex">
-          <p className="pl-4 pr-4 font-bold text-left md:text-base lg:text-lg xl:text-xl">
-            <span className="font-bold text-left mr-3">関西全域に対応！</span>
-            害虫・害獣駆除のことなら
+        <div className="hidden items-center md:flex">
+          <p className="font-bold text-left md:text-base lg:text-lg xl:text-xl">
+            <span className="mr-2">関西全域に対応！</span>
+            害虫駆除のことなら
             <br />
-            <span className="font-bold text-red-500 md:text-lg lg:text-xl xl:text-3xl">
+            <span className="text-red-500 md:text-lg lg:text-xl xl:text-3xl">
               ホームプロテクター
             </span>
             にお任せ下さい！
@@ -69,7 +71,11 @@ export const Header = () => {
             </a>
           )}
           <a href="https://lin.ee/mqP8zXC">
-            <img src="assets/line.png" alt="LINEアイコン" className="w-14 md:mr-3" />
+            <img
+              src="assets/line.png"
+              alt="LINEアイコン"
+              className="w-14 md:mr-3"
+            />
           </a>
         </div>
       </div>

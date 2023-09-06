@@ -1,11 +1,11 @@
 import { DescriptionEntity } from "../../types";
-import { Call } from "./Call";
+import { RequestButton } from "./RequestButton";
 
 export const DescriptioniPhone = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
     return (
       <div key={index} className="mx-1">
-        <img src={image} alt={"害虫・害獣による被害例：" + index + 1} />
+        <img src={image} alt={"害虫による被害例：" + index + 1} />
       </div>
     );
   });
@@ -44,7 +44,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
             <p className="border-b border-black text-center font-bold xs:text-xs md:text-2xl">
               {props.name}
             </p>
-            <img src={props.animalImage} alt="害虫・害獣" />
+            <img src={props.animalImage} alt="害虫" />
             <p className="flex border-t border-black text-center justify-center items-center text-sm font-bold xs:text-xs md:text-xl">
               危険度：
               {risk}
@@ -60,7 +60,7 @@ export const DescriptioniPhone = (props: DescriptionEntity) => {
                 ? `${props.lowestPrice}円 / 1㎡（税別）`
                 : `${props.lowestPrice}〜${props.highestPrice}円（税別）`}
             </p>
-            <Call />
+            <RequestButton />
           </div>
         </div>
         <div className="border-2 border-black bg-white text-sm w-description mt-3 mx-3 xs:text-xs md:w-4/5">

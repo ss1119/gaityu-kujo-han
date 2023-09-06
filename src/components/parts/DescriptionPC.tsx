@@ -1,11 +1,11 @@
 import { DescriptionEntity } from "../../types";
-import { Call } from "./Call";
+import { RequestButton } from "./RequestButton";
 
 export const DescriptionPC = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
     return (
       <div key={index} className="lg:w-44">
-        <img src={image} alt={"害虫・害獣による被害例：" + index + 1} />
+        <img src={image} alt={"害虫による被害例：" + index + 1} />
       </div>
     );
   });
@@ -44,7 +44,7 @@ export const DescriptionPC = (props: DescriptionEntity) => {
             <p className="border-b-2 border-black text-center font-bold">
               {props.name}
             </p>
-            <img src={props.animalImage} alt="害虫・害獣" />
+            <img src={props.animalImage} alt="害虫" />
             <p className="flex border-t-2 border-black text-center justify-center items-center text-sm font-bold">
               危険度：
               {risk}
@@ -71,7 +71,7 @@ export const DescriptionPC = (props: DescriptionEntity) => {
             ${props.highestPrice}円（税別）`}
             </p>
           </div>
-          <Call />
+          <RequestButton />
         </div>
         <div className="block">
           <p className="inline-block border-double font-bold">
