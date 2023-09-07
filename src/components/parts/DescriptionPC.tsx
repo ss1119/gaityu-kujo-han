@@ -5,7 +5,13 @@ export const DescriptionPC = (props: DescriptionEntity) => {
   const images = props.damageImages.map((image, index) => {
     return (
       <div key={index} className="lg:w-44">
-        <img src={image} alt={"害虫による被害例：" + index + 1} />
+        <img
+          src={image}
+          alt={"害虫による被害例：" + index + 1}
+          width={612}
+          height={408}
+          className="w-full h-auto"
+        />
       </div>
     );
   });
@@ -44,7 +50,13 @@ export const DescriptionPC = (props: DescriptionEntity) => {
             <p className="border-b-2 border-black text-center font-bold">
               {props.name}
             </p>
-            <img src={props.animalImage} alt="害虫" />
+            <img
+              src={props.animalImage}
+              alt="害虫"
+              width={612}
+              height={408}
+              className="w-full h-auto"
+            />
             <p className="flex border-t-2 border-black text-center justify-center items-center text-sm font-bold">
               危険度：
               {risk}
