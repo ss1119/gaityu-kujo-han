@@ -29,7 +29,7 @@ export const Company = () => {
                   所在地
                 </td>
                 <td className="border-b-2 text-sm xs:text-xs md:text-lg">
-                  〒532-0011 大阪府大阪市淀川区西中島6丁目3番29号 K423
+                  〒532-0011 大阪府大阪市淀川区西中島6丁目3番24号 K423
                 </td>
               </tr>
               <tr className="sm:h-8 lg:h-14">

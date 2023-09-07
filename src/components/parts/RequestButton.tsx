@@ -1,10 +1,11 @@
-import { getHour } from "../../utils/time";
+import { getDayOfWeek, getHour } from "../../utils/time";
 
 export const RequestButton = () => {
   const hour = getHour();
+  const dayOfWeek = getDayOfWeek();
   return (
     <>
-      {9 <= hour && hour < 19 ? (
+      {(9 <= hour && hour < 19) || dayOfWeek !== 6 ? (
         <a href="tel:0668857656">
           <img
             src="assets/call.webp"

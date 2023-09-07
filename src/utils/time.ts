@@ -3,3 +3,9 @@ export const getHour = () => {
   const hour = now.getHours();
   return hour;
 };
+
+export const getDayOfWeek = () => {
+  const now = new Date();
+  const dayOfWeek = now.getDay();
+  return dayOfWeek;
+};

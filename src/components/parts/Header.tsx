@@ -1,7 +1,8 @@
-import { getHour } from "../../utils/time";
+import { getDayOfWeek, getHour } from "../../utils/time";
 
 export const Header = () => {
   const hour = getHour();
+  const dayOfWeek = getDayOfWeek();
   return (
     <div className="sticky top-0 z-50">
       <div className="bg-opacity-90 flex items-center justify-end py-4 h-16 pr-1 bg-white md:h-20 md:justify-between lg:h-20 lg:flex-row lg:py-2 lg:pr-0">
@@ -33,7 +34,7 @@ export const Header = () => {
             にお任せ下さい！
           </p>
         </div>
-        {9 <= hour && hour < 19 ? (
+        {(9 <= hour && hour < 19) || dayOfWeek !== 6 ? (
           <a href="tel:0668857656" className="hidden lg:flex mr-8">
             <div className="flex items-center shadow bg-yellow-300 rounded-md pr-3 pl-2 py-1">
               <img src="assets/phone.webp" alt="電話マーク" className="w-16" />
@@ -55,7 +56,7 @@ export const Header = () => {
           </a>
         )}
         <div className="flex xs:w-24 lg:hidden">
-          {9 <= hour && hour < 19 ? (
+          {(9 <= hour && hour < 19) || dayOfWeek !== 6 ? (
             <a
               href="tel:0668857656"
               className="bg-yellow-300 bg-opacity-80 shadow rounded p-0.5 ml-3 mr-1"

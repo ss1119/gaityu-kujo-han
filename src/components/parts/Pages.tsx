@@ -1,4 +1,4 @@
-import { Call } from "../parts/Call";
+import { Call } from "./Call";
 
 export const Pages = () => {
   return (
