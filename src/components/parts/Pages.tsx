@@ -6,9 +6,9 @@ export const Pages = () => {
       <div className="flex justify-center">
         <img
           src="assets/pages/page1.webp"
-          className="w-full h-auto lg:w-1/2"
+          className="w-full h-auto object-cover lg:w-1/2"
           width={600}
-          // height={1245}
+          height={1245}
           alt="害虫の駆除は専門家にお任せください。アシナガバチ、オオスズメバチ、ゴキブリ、トコジラミなどの害虫に対応しております。当日契約で駆除料金50%OFF"
         />
       </div>
