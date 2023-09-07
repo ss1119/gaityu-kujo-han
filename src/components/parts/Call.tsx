@@ -12,7 +12,9 @@ export const Call = () => {
               <img
                 src="assets/phone.webp"
                 alt="電話マーク"
-                className="w-14 mr-2 xs:w-10 md:w-24"
+                className="w-14 h-auto mr-2 xs:w-10 md:w-24"
+                width={340}
+                height={340}
               />
               <div className="flex-col">
                 <div className="inline-block font-bold bg-yellow-300 px-1 xs:text-xs md:text-xl">
@@ -30,7 +32,9 @@ export const Call = () => {
               <img
                 src="assets/phone.webp"
                 alt="電話マーク"
-                className="w-14 mr-2 xs:w-10 md:w-24"
+                className="w-14 h-auto mr-2 xs:w-10 md:w-24"
+                width={340}
+                height={340}
               />
               <div className="flex-col">
                 <div className="inline-block font-bold bg-yellow-300 px-1 xs:text-xs md:text-xl">
@@ -48,7 +52,9 @@ export const Call = () => {
         <img
           src="assets/car.webp"
           alt="白い車"
-          className="w-16 mr-2 xs:w-10 md:w-28"
+          className="w-16 h-auto mr-2 xs:w-10 md:w-28"
+          width={578}
+          height={432}
         />
         <p className="text-xl font-black text-white xs:text-base md:text-5xl">
           電話１本ですぐに駆けつけ！
@@ -63,7 +69,9 @@ export const Call = () => {
                   <img
                     src="assets/phone.webp"
                     alt="電話マーク"
-                    className="w-22 mr-2"
+                    className="w-22 h-auto mr-2"
+                    width={340}
+                    height={340}
                   />
                   <div className="flex-col">
                     <div className="inline-block font-bold bg-yellow-300 px-1 text-xl">
@@ -81,7 +89,9 @@ export const Call = () => {
                   <img
                     src="assets/phone.webp"
                     alt="電話マーク"
-                    className="w-22 mr-2"
+                    className="w-22 h-auto mr-2"
+                    width={340}
+                    height={340}
                   />
                   <div className="flex-col">
                     <div className="inline-block font-bold bg-yellow-300 px-1 text-xl">
@@ -99,7 +109,9 @@ export const Call = () => {
             <img
               src="assets/car.webp"
               alt="白い車"
-              className="w-20 mr-2 xl:w-24"
+              className="w-20 h-auto mr-2 xl:w-24"
+              width={578}
+              height={432}
             />
             <p className="text-2xl font-black text-white xl:text-4xl">
               電話１本ですぐに駆けつけ！
