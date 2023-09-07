@@ -1,11 +1,12 @@
-import { getHour } from "../../utils/time";
+import { getDayOfWeek, getHour } from "../../utils/time";
 
 export const Call = () => {
   const hour = getHour();
+  const dayOfWeek = getDayOfWeek();
   return (
     <div className="relative bg-white">
       <div className="flex justify-center lg:hidden my-2 md:my-4 custom-animation">
-        {9 <= hour && hour < 19 ? (
+        {(9 <= hour && hour < 19) || dayOfWeek !== 6 ? (
           <a href="tel:0668857656">
             <div className="flex items-center shadow-lg bg-orange-600 pr-7 pl-3 pt-2 pb-1 xs:py-1 xs:pr-4 xs:pl-2 hover:bg-orange-500 active:scale-95">
               <img
@@ -56,7 +57,7 @@ export const Call = () => {
       <div className="hidden lg:flex justify-center items-center mt-3 px-10">
         <div className="flex-row">
           <div className="flex justify-center pt-3">
-            {9 <= hour && hour < 19 ? (
+            {(9 <= hour && hour < 19) || dayOfWeek !== 6 ? (
               <a href="tel:0668857656">
                 <div className="flex items-center shadow-lg bg-orange-600 pr-7 pl-3 pt-2 pb-1 hover:bg-orange-500 active:scale-95">
                   <img
