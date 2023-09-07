@@ -1,5 +1,5 @@
 import { Company } from "../parts/Company";
-import { Footer } from "../parts/Footer";
+import { Copyright } from "../parts/Copyright";
 import { Header } from "../parts/Header";
 import { Descriptions } from "../templates/Descriptions";
 import { Explain } from "../parts/Explain";
@@ -17,7 +17,7 @@ export const Home = () => {
       <Examples />
       <Summary />
       <Company />
-      <Footer />
+      <Copyright />
     </>
   );
 };
