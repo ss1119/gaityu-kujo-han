@@ -8,7 +8,7 @@ export const Pages = () => {
           src="assets/pages/page1.webp"
           className="w-full h-auto lg:w-1/2"
           width={600}
-          height={1245}
+          // height={1245}
           alt="害虫の駆除は専門家にお任せください。アシナガバチ、オオスズメバチ、ゴキブリ、トコジラミなどの害虫に対応しております。当日契約で駆除料金50%OFF"
         />
       </div>
@@ -17,8 +17,8 @@ export const Pages = () => {
         <img
           src="assets/pages/page2.webp"
           className="w-full h-auto lg:w-1/2"
-          width={600}
-          height={1236}
+          // width={600}
+          // height={1236}
           alt="他社との大きな違いはビジネスモデルです。仲介業者を挟まないため仲介手数料が発生せず、より安い料金で駆除を承ることができます。"
         />
       </div>
