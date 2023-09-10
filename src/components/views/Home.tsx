@@ -6,6 +6,7 @@ import { Explain } from "../parts/Explain";
 import { Pages } from "../parts/Pages";
 import { Examples } from "../parts/Examples";
 import { Summary } from "../parts/Summary";
+import { Footer } from "../parts/Footer";
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
       <Summary />
       <Company />
       <Copyright />
+      <Footer />
     </>
   );
 };
