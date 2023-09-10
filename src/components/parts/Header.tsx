@@ -4,7 +4,7 @@ export const Header = () => {
   const hour = getHour();
   const dayOfWeek = getDayOfWeek();
   return (
-    <div className="sticky top-0 z-50">
+    <div className="lg:sticky top-0 z-50">
       <div className="bg-opacity-90 flex items-center justify-end py-4 h-16 pr-1 bg-white md:h-20 md:justify-between lg:h-20 lg:flex-row lg:py-2 lg:pr-0">
         <div className="flex items-center">
           <img
