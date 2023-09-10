@@ -5,7 +5,7 @@ export const RequestButton = () => {
   const dayOfWeek = getDayOfWeek();
   return (
     <>
-      {(9 <= hour && hour < 19) || dayOfWeek !== 6 ? (
+      {9 <= hour && hour < 19 && dayOfWeek !== 6 ? (
         <a href="tel:0668857656">
           <img
             src="assets/call.webp"

@@ -36,7 +36,7 @@ export const Header = () => {
             にお任せ下さい！
           </p>
         </div>
-        {(9 <= hour && hour < 19) || dayOfWeek !== 6 ? (
+        {9 <= hour && hour < 19 && dayOfWeek !== 6 ? (
           <a href="tel:0668857656" className="hidden lg:flex mr-8">
             <div className="flex items-center shadow bg-yellow-300 rounded-md pr-3 pl-2 py-1">
               <img
@@ -70,7 +70,7 @@ export const Header = () => {
           </a>
         )}
         <div className="flex xs:w-24 lg:hidden">
-          {(9 <= hour && hour < 19) || dayOfWeek !== 6 ? (
+          {9 <= hour && hour < 19 && dayOfWeek !== 6 ? (
             <a
               href="tel:0668857656"
               className="bg-yellow-300 bg-opacity-80 shadow rounded p-0.5 ml-3 mr-1"

@@ -15,7 +15,7 @@ export const Footer = () => {
         </div>
         <div className="flex items-center justify-between">
           <div className="w-7/12 bg-white shadow-2xl mr-4 md:mr-10">
-            {(9 <= hour && hour < 19) || dayOfWeek !== 6 ? (
+            {(9 <= hour && hour < 19) && dayOfWeek !== 6 ? (
               <a
                 href="tel:0668857656"
                 className="flex items-center justify-center h-14 pr-3 xs:h-10 md:h-20"
