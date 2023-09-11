@@ -1,4 +1,5 @@
 import { Call } from "./Call";
+import { Damages } from "./Damages";
 
 export const Pages = () => {
   return (
@@ -11,6 +12,7 @@ export const Pages = () => {
         />
       </div>
       <Call />
+      <Damages />
       <div className="flex justify-center">
         <img
           src="assets/pages/page2.webp"
