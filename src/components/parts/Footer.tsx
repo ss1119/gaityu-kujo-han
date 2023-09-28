@@ -6,11 +6,24 @@ export const Footer = () => {
   return (
     <div className="sticky bottom-0 z-50 lg:hidden">
       <div className="flex-row items-center relative p-1 pb-2 w-full h-auto bg-orange-400 xs:pb-1 md:py-2">
-        <div className="flex items-center">
-          <div className="bg-yellow-300 px-4 mb-1 xs:px-2 md:px-8">
-            <p className="font-bold inline-block text-base xs:text-xs sm:text-lg md:text-3xl md:py-1">
-              ご相談&nbsp;&nbsp;&nbsp;&&nbsp;&nbsp;&nbsp;ご依頼&nbsp;&nbsp;&nbsp;受付中
-            </p>
+        <div className="flex">
+          <div className="flex justify-center w-3/5">
+            <img
+              src="assets/footer/item1.webp"
+              alt="ご依頼受付中"
+              className="w-32 h-auto mr-3 mb-1 xs:w-16 md:w-60"
+              width={300}
+              height={52}
+            />
+          </div>
+          <div className="flex justify-center w-2/5">
+            <img
+              src="assets/footer/item2.webp"
+              alt="現地調査無料"
+              className="w-32 h-auto mb-item2 xs:w-16 md:w-60"
+              width={300}
+              height={52}
+            />
           </div>
         </div>
         <div className="flex items-center justify-between mt-1">
