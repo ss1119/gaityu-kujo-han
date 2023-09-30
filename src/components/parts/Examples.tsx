@@ -6,8 +6,6 @@ export const Examples = () => {
           src="assets/examples/example1.webp"
           className="w-full h-auto lg:w-1/2"
           alt="ゴキブリ駆除 施工例"
-          width={600}
-          height={1236}
         />
       </div>
       <div className="flex justify-center">
@@ -15,8 +13,6 @@ export const Examples = () => {
           src="assets/examples/example2.webp"
           className="w-full h-auto lg:w-1/2"
           alt="トコジラミ駆除 施工例"
-          width={600}
-          height={1236}
         />
       </div>
       <div className="flex justify-center">
@@ -24,8 +20,6 @@ export const Examples = () => {
           src="assets/examples/example3.webp"
           className="w-full h-auto lg:w-1/2"
           alt="スズメバチ駆除 施工例"
-          width={600}
-          height={1236}
         />
       </div>
     </div>
